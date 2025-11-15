@@ -1,0 +1,91 @@
+.five-button-section .global-btn {
+  margin-top: 9px !important;
+  /* background-color: #3c3cd2 !important; */
+}
+
+.five-button-section .global-btn:hover {
+  background-color: #00c8c8 !important;
+}
+
+@media screen and (max-width: 426px) {
+  .five-button-section .secure-btn {
+    margin: 0 20px;
+  }
+}
+
+/* /whatisfintech page start */
+.five-button-section.what-is-fintech-herobanner .global-btn {
+  padding: 14px 24px !important;
+  margin-bottom: 15px !important;
+  margin-top: 0 !important;
+  text-transform: capitalize !important;
+}
+
+.five-button-section.what-is-fintech-herobanner .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #66ffb8 !important;
+}
+
+@media screen and (max-width: 567px) {
+  .five-button-section.what-is-fintech-herobanner .wrapper-buttons:nth-child(3) .global-btn {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* /whatisfintech page end */
+
+/* /international-programme page start */
+.five-button-section.international-programme-herobanner .global-btn {
+  margin-top: 10px !important;
+  background-color: #000068 !important;
+}
+
+@media screen and (max-width: 426px) {
+  .five-button-section.international-programme-herobanner {
+    padding: 0 5px;
+  }
+}
+
+/* /international-programme page end */
+/*womeninfintech-buttons start*/
+.womeninfintech-buttons.five-button-section .details {
+  display: flex;
+  gap: 0 !important;
+}
+
+.womeninfintech-buttons.five-button-section .wrapper-buttons {
+  margin-right: 15px;
+}
+
+.womeninfintech-buttons.five-button-section .global-btn {
+  line-height: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .womeninfintech-buttons.five-button-section .details {
+    display: block;
+    gap: 0 !important;
+  }
+
+  .womeninfintech-buttons.five-button-section .global-btn {
+    width: fit-content;
+    margin-bottom: 8px;
+  }
+}
+
+/*womeninfintech-buttons end*/
+
+/* pride-in-fintech-application style start  */
+.pride-application-buttons.five-button-section .global-btn {
+  color: #252525 !important;
+}
+
+.pride-application-buttons.five-button-section .global-btn svg {
+  fill: #252525;
+}
+
+.pride-application-buttons.five-button-section .global-btn:hover {
+  background-color: #e6beff !important;
+}
+
+/* pride-in-fintech-application style end  */

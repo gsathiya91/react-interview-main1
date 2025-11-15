@@ -1,0 +1,201 @@
+.be-a-part-of-community h1.main-title {
+  color: #404040;
+  margin: 20px 0 50px;
+}
+
+.be-a-part-of-community .card-section .items h2.number,
+.be-a-part-of-community h1 {
+  font-size: 48px !important;
+  font-weight: 200 !important;
+  line-height: 62px !important;
+  font-family: NeoTechStd-Light, sans-serif !important;
+  color: #fff;
+  text-align: center;
+}
+
+.be-a-part-of-community .card-section {
+  padding: 35px 50px 25px;
+  border-radius: 5px;
+}
+
+.be-a-part-of-community .card-section .items.animate__fadeIn {
+  animation: fadeIn;
+  animation-duration: 2s;
+  margin-right: 61px;
+}
+.be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(2) {
+  margin-left: 21px;
+  margin-right: 7px;
+}
+.be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(3) {
+  margin-left: 40px;
+  margin-right: 0px;
+}
+.be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(4) {
+  margin-left: 59px;
+  margin-right: 3px;
+}
+
+.be-a-part-of-community .card-section .items h2 {
+  color: #fff;
+  line-height: 57px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  /* word-wrap: break-word; */
+}
+
+.be-a-part-of-community .card-section .items p {
+  color: #fff !important;
+  /* margin-bottom: 20px; */
+}
+@media screen and (max-width: 768px) {
+  .be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(2),
+  .be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(3),
+  .be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(4) {
+    margin-left: 0;
+    margin-right: 61px;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .be-a-part-of-community .card-section {
+    gap: 0;
+  }
+
+  .be-a-part-of-community .card-section {
+    padding: 35px 20px 25px !important;
+  }
+
+  .be-a-part-of-community .card-section .items.animate__fadeIn {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .be-a-part-of-community .card-section .items h2.number {
+    padding-right: 12px;
+  }
+  .be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(2),
+  .be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(3),
+  .be-a-part-of-community .card-section .items.animate__fadeIn:nth-child(4) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* capital/2022-summer-investment-report page style start */
+
+.be-a-part-of-community.summer-card-section .card-section .animate__fadeIn {
+  margin-right: 0;
+}
+
+.be-a-part-of-community.summer-card-section .card-section .items p {
+  margin-bottom: 20px;
+}
+
+.be-a-part-of-community.summer-card-section .card-section .items h2 {
+  margin-bottom: 20px;
+}
+
+.be-a-part-of-community.summer-card-section .card-section .items {
+  text-align: left;
+  padding-right: 10px;
+}
+
+.be-a-part-of-community.summer-card-section .card-section .items:nth-child(1) {
+  padding-left: 0;
+}
+
+.be-a-part-of-community.summer-card-section {
+  background-color: transparent !important;
+}
+
+.be-a-part-of-community.summer-card-section .card-section {
+  background-color: transparent !important;
+  /* padding: 30px 0px !important; */
+}
+
+.be-a-part-of-community.summer-card-section .card-section .items p {
+  color: #444444 !important;
+}
+.be-a-part-of-community.summer-card-section
+  .card-section
+  .items.animate__fadeIn:nth-child(2),
+.be-a-part-of-community.summer-card-section
+  .card-section
+  .items.animate__fadeIn:nth-child(3),
+.be-a-part-of-community.summer-card-section
+  .card-section
+  .items.animate__fadeIn:nth-child(4) {
+  margin-left: 0;
+  margin-right: 0px;
+}
+@media screen and (max-width: 768px) {
+  .be-a-part-of-community.summer-card-section.summer-2022-card .card-section {
+    padding: 30px !important;
+  }
+  .be-a-part-of-community.summer-card-section {
+    padding: 0 25px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .be-a-part-of-community.summer-card-section .card-section {
+    padding: 10px 52px 25px !important;
+  }
+
+  .be-a-part-of-community.summer-card-section
+    .card-section
+    .items.animate__fadeIn {
+    margin-bottom: 0px;
+  }
+
+  .be-a-part-of-community.summer-card-section.summer-2022-card .card-section {
+    padding: 28px 50px !important;
+  }
+}
+/* capital/2022-summer-investment-report page style end */
+
+/* a-record-breaking-year-in-fintech-page start*/
+@media only screen and (max-width: 567px) {
+  .be-a-part-of-community.summer-card-section.a-record-breaking-year-in-fintech-page
+    .card-section {
+    padding: 10px 28px 25px !important;
+  }
+}
+/* a-record-breaking-year-in-fintech-page end */
+
+/*ifgs2023-cards start*/
+.ifgs2023-cards.be-a-part-of-community {
+  background-color: #3c3cd2 !important;
+}
+.ifgs2023-cards.be-a-part-of-community .card-section .items.animate__fadeIn {
+  margin-right: 17px !important;
+  margin-bottom: 20px;
+}
+.ifgs2023-cards.be-a-part-of-community .card-section {
+  background-color: #3c3cd2 !important;
+  padding: 34px 0 35px !important;
+}
+.ifgs2023-cards.be-a-part-of-community .card-section .items h2 {
+  margin-bottom: 20px;
+}
+.ifgs2023-cards.be-a-part-of-community
+  .card-section
+  .items.animate__fadeIn:nth-child(2),
+.ifgs2023-cards.be-a-part-of-community
+  .card-section
+  .items.animate__fadeIn:nth-child(3),
+.ifgs2023-cards.be-a-part-of-community
+  .card-section
+  .items.animate__fadeIn:nth-child(4) {
+  margin-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .ifgs2023-cards.be-a-part-of-community .card-section .items.animate__fadeIn {
+    margin-right: 12px;
+  }
+  .ifgs2023-cards.be-a-part-of-community .card-section {
+    background-color: #3c3cd2 !important;
+    padding: 32px 0 32px !important;
+  }
+}
+/*ifgs2023-cards end*/

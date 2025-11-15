@@ -1,0 +1,491 @@
+/*fintechasaforceforgood start*/
+.force-for-good-two-col .image-wrapper {
+  margin-bottom: 10px;
+}
+
+.force-for-good-two-col .parallax {
+  scale: 1;
+  transition: all 0.9s ease-in-out;
+}
+
+.force-for-good-two-col ul {
+  list-style-type: disc;
+}
+
+.force-for-good-two-col li {
+  font-size: 14px;
+  line-height: 23px;
+  font-family: 400;
+  color: #444444;
+  margin-left: 33px;
+}
+
+.force-for-good-two-col iframe {
+  z-index: 2147483646;
+  position: fixed;
+  inset: 0px;
+  margin: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.force-for-good-two-col-close-wrapper {
+  z-index: 2147483647;
+  position: fixed;
+  top: 34px;
+  right: 235px;
+  cursor: pointer;
+}
+
+.force-for-good-two-col .eds-modal__close-button {
+  display: none !important;
+}
+
+.force-for-good-two-col .content-wrapper p a {
+  color: #4bbb87;
+}
+
+.force-for-good-two-col .content-wrapper p {
+  margin-bottom: 20px;
+}
+
+.force-for-good-two-col h2 {
+  margin-top: 70px;
+  font-size: 39px !important;
+  text-transform: capitalize;
+}
+
+.force-for-good-two-col h2 strong {
+  font-weight: 700;
+}
+
+.force-for-good-two-col .main-wrapper {
+  gap: 30px;
+}
+
+.force-for-good-two-col .global-btn {
+  padding: 14px 24px;
+  line-height: 12px;
+}
+
+.force-for-good-two-col .global-btn:hover {
+  background-color: #3ae8bf !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .force-for-good-two-col .main-wrapper {
+    padding: 0px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .force-for-good-two-col .buttons {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .force-for-good-two-col .parallax {
+    transform: unset !important;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .force-for-good-two-col .main-wrapper {
+    gap: 0px;
+  }
+
+  .force-for-good-two-col .buttons {
+    display: block !important;
+  }
+}
+
+/*fintechasaforceforgood end*/
+
+/*fintechasaforceforgood-1 start*/
+.fintechasaforceforgood-1.force-for-good-two-col .title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col .main-wrapper {
+  padding-left: 5px;
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col .title p b {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col p {
+  padding-right: 20px;
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col .title-image {
+  margin-bottom: 14px;
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col .image-div {
+  margin-top: -55px;
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col .video-wrapper {
+  position: relative;
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col .video-wrapper .logo-overlay {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+}
+
+.fintechasaforceforgood-1.force-for-good-two-col .video-wrapper video {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .fintechasaforceforgood-1.force-for-good-two-col .main-wrapper {
+    padding: 0px;
+  }
+
+  .fintechasaforceforgood-1.force-for-good-two-col p {
+    padding-right: 0px;
+  }
+
+  .fintechasaforceforgood-1.force-for-good-two-col .video-wrapper .logo-overlay {
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+  .fintechasaforceforgood-1.force-for-good-two-col .main-wrapper {
+    padding: 0px;
+  }
+
+  .fintechasaforceforgood-1.force-for-good-two-col .image-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fintechasaforceforgood-1.force-for-good-two-col p {
+    padding-right: 4px;
+  }
+
+  .fintechasaforceforgood-1.force-for-good-two-col .buttons {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .fintechasaforceforgood-1.force-for-good-two-col .video-wrapper video {
+    margin-top: 30px;
+  }
+
+  .fintechasaforceforgood-1.force-for-good-two-col .title h1 {
+    margin-top: 20px;
+    font-size: 37px;
+  }
+
+}
+
+@media screen and (max-width:378px) {
+  .fintechasaforceforgood-1.force-for-good-two-col .buttons .global-btn {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:1280px) {
+  .fintechasaforceforgood-1.force-for-good-two-col .video-wrapper video {
+    width: 503px;
+    height: 503px;
+  }
+}
+
+/*fintechasaforceforgood-1 end*/
+
+/*fintechasaforceforgood-2 start*/
+
+.fintechasaforceforgood-2.force-for-good-two-col {
+  padding: 0px 20px;
+}
+
+.fintechasaforceforgood-2.force-for-good-two-col .main-wrapper {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .fintechasaforceforgood-2.force-for-good-two-col .main-wrapper {
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+/*fintechasaforceforgood-2 end*/
+
+/*fintechasaforceforgood-3 start*/
+
+.fintechasaforceforgood-3.force-for-good-two-col .title {
+  margin-top: 30px;
+}
+
+.fintechasaforceforgood-3.force-for-good-two-col .main-wrapper {
+  padding-bottom: 70px;
+}
+
+.fintechasaforceforgood-3.force-for-good-two-col p {
+  padding-right: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+  .fintechasaforceforgood-3.force-for-good-two-col .main-wrapper {
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .fintechasaforceforgood-3.force-for-good-two-col .main-wrapper {
+    padding: 0px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fintechasaforceforgood-3.force-for-good-two-col .main-wrapper {
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .fintechasaforceforgood-3.force-for-good-two-col p {
+    padding-right: 4px;
+  }
+
+  .fintechasaforceforgood-3.force-for-good-two-col h2,
+  .fintechasaforceforgood-3.force-for-good-two-col .title {
+    margin-top: 0px;
+  }
+}
+
+/*fintechasaforceforgood-3 end*/
+
+/* fintech-as-force-for-good-review start  */
+.fintech-as-force-for-good-review.force-for-good-two-col {
+  overflow-y: hidden;
+}
+
+.fintech-as-force-for-good-review.force-for-good-two-col .image-wrapper {
+  text-align: center;
+  height: 300px !important;
+  margin-top: -55px;
+}
+
+/* fintech-as-force-for-good-review end */
+/* ifgs-2024-twocol start ifgs2024 */
+.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col {
+  margin: 0 20px;
+  padding: 90px 0 0;
+}
+
+.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .content-wrapper {
+  padding: 0 20px;
+}
+
+.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col h2 {
+  margin-top: 0;
+  margin-bottom: 34px;
+  font-size: 44px !important;
+  font-weight: 600 !important;
+  line-height: 48px;
+}
+
+.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col p {
+  width: 78%;
+  padding-right: 0;
+}
+
+.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .global-btn {
+  margin-top: 10px;
+}
+
+.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .global-btn:hover {
+  background-color: #00c8c8 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .global-btn {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col p {
+    width: 100%;
+  }
+
+  .ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .content-wrapper {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col {
+    margin: 0 10px;
+    padding: 45px 0 8px;
+  }
+}
+
+/* ifgs-2024-twocol start ifgs2024 */
+
+/* ifgs-2024-twocol-2 start  */
+.ifgs-2024-twocol-2.fintechasaforceforgood-3.force-for-good-two-col {
+  margin: 0 20px;
+  padding-top: 56px;
+}
+
+.ifgs-2024-twocol-2.fintechasaforceforgood-3.force-for-good-two-col .content-wrapper {
+  padding: 0 66px 0 41px;
+}
+
+.ifgs-2024-twocol-2.fintechasaforceforgood-3.force-for-good-two-col h2 {
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .ifgs-2024-twocol-2.fintechasaforceforgood-3.force-for-good-two-col .content-wrapper {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .ifgs-2024-twocol-2.fintechasaforceforgood-3.force-for-good-two-col h2,
+  .ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col h2 {
+    font-size: 32px !important;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .ifgs-2024-twocol-2.fintechasaforceforgood-3.force-for-good-two-col {
+    margin: 0 10px;
+    padding: 30px 0 20px;
+  }
+
+  .ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .main-wrapper {
+    padding: 0px 6px;
+  }
+
+  .ifgs-2024-twocol-2.fintechasaforceforgood-3.force-for-good-two-col .main-wrapper {
+    padding: 0px 1px;
+  }
+}
+
+/* ifgs-2024-twocol-2 end  */
+/* ukfintech-week new page start  */
+/* ukfintech-week-force-two-col  & ukfintech-week-force-two-col-2 start  */
+.ukfintech-week-force-two-col.force-for-good-two-col .title-image,
+.ukfintech-week-force-two-col-2.force-for-good-two-col .title-image {
+  margin: 68px 0 26px;
+}
+
+.ukfintech-week-force-two-col.force-for-good-two-col .content-wrapper p {
+  color: #FFF;
+}
+
+.ukfintech-week-force-two-col.force-for-good-two-col .image-wrapper {
+  margin-bottom: 0;
+}
+
+@media (max-width:1025px) {
+  .ukfintech-week-force-two-col.force-for-good-two-col {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width:767px) {
+
+  .ukfintech-week-force-two-col.force-for-good-two-col .buttons div:nth-child(2) .global-btn,
+  .ukfintech-week-force-two-col-2.force-for-good-two-col .buttons div:last-child .global-btn {
+    margin-bottom: 29px;
+  }
+
+  .ukfintech-week-force-two-col.force-for-good-two-col .title-image {
+    margin: 31px 0 26px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .ukfintech-week-two-col.two-column-section .main-wrapper,
+  .ukfintech-week-force-two-col-2.force-for-good-two-col .main-wrapper {
+    gap: 3.25rem;
+  }
+}
+
+
+/* ukfintech-week-force-two-col-2 start  */
+.ukfintech-week-force-two-col-2.force-for-good-two-col .paragraph p img {
+  display: inline;
+}
+
+.for-button.ukfintech-week-force-two-col-2.force-for-good-two-col .buttons {
+  flex-wrap: wrap;
+}
+
+.for-button.ukfintech-week-force-two-col-2.force-for-good-two-col .buttons .global-btn {
+  margin-top: 10px;
+}
+
+@media (max-width:767px) {
+  .ukfintech-week-force-two-col-2.force-for-good-two-col .title-image {
+    margin: 10px 0 10px;
+  }
+
+  .for-button.ukfintech-week-force-two-col-2.force-for-good-two-col .buttons .global-btn {
+    margin-top: 30px;
+  }
+}
+
+/* ukfintech-week-force-two-col-2 end */
+/* ukfintech-week-force-two-col & ukfintech-week-force-two-col-2 end */
+/* ukfintech-week new page end  */
+
+.ifgs-2025-twocol.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col {
+  padding: 0px 0 0;
+}
+
+/* exhibitors-twocol start  */
+.exhibitors-twocol.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col {
+  padding: 50px 0 0;
+}
+
+.exhibitors-twocol.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .title h2 {
+  color: #000000;
+}
+
+.exhibitors-twocol.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col p {
+  max-width: 466px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .exhibitors-twocol.ifgs-2024-twocol.fintechasaforceforgood-3.force-for-good-two-col .title h2 {
+    font-size: 40px !important;
+  }
+}
+
+/* exhibitors-twocol end */

@@ -1,0 +1,1550 @@
+/* .two-column-section {
+    padding: 50px 0;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@400;700;900&display=swap");
+
+.two-column-section .main-wrapper {
+  padding-bottom: 40px;
+}
+
+.two-column-section.fintechasaforceforgood .image-div .move-animation {
+  /* animation: move 6s infinite alternate-reverse; */
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(7%);
+  }
+}
+
+/* img{
+    width:auto !important;
+    height:auto !important;
+} */
+
+.two-column-section .content-wrapper h2 {
+  margin-bottom: 14px;
+  color: #404040;
+  font-weight: bold;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.two-column-section .content-wrapper h4 {
+  margin-bottom: 9px;
+}
+
+.two-column-section .content-wrapper h3 {
+  margin-bottom: 10px;
+}
+
+.two-column-section .content-wrapper p.p3 {
+  margin-bottom: 20px !important;
+  font-weight: bold !important;
+}
+
+.two-column-section .content-wrapper p {
+  margin-bottom: 20px;
+}
+
+.two-column-section .content-wrapper div:nth-child(9) p {
+  margin-bottom: 13px;
+}
+
+.two-column-section ul li {
+  list-style-type: disc;
+  font-size: 14px;
+  line-height: 23px;
+  color: #444444;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 2.3em;
+}
+
+.two-column-section .vedio {
+  display: inline-block;
+}
+
+.two-column-section .vedio iframe {
+  height: 310px !important;
+  width: 540px !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  .two-column-section .vedio iframe {
+    height: 300px !important;
+    width: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .two-column-section .vedio iframe {
+    width: 100% !important;
+  }
+}
+
+/* uk-fintech-week-page hero banner two col section start*/
+
+.two-column-section.uk-fintech-week .logo-div {
+  margin-top: 10px;
+  margin-bottom: 64px;
+}
+
+.two-column-section.uk-fintech-week .title {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.two-column-section.uk-fintech-week .title h2 {
+  font-size: 48px !important;
+  color: #fff;
+  font-weight: 400;
+}
+
+.two-column-section.uk-fintech-week .image-wrapper {
+  align-items: initial !important;
+  text-align: left !important;
+  margin-top: 10px;
+}
+
+.uk-fintech-week.two-column-section:first-child {
+  padding: 0 0 24px 0;
+}
+
+.uk-fintech-week.two-column-section:first-child .content-wrapper {
+  margin-top: 40px;
+}
+
+.uk-fintech-week.two-column-section .main-wrapper {
+  gap: 36px;
+}
+
+.uk-fintech-week.two-column-section:first-child p {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.uk-fintech-week.two-column-section:first-child .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #66ffb8 !important;
+}
+
+.uk-fintech-week.two-column-section:nth-child(2) p {
+  line-height: 27px;
+  color: #444444;
+  font-family: Lato, sans-serif !important;
+}
+
+.uk-fintech-week.two-column-section h2 {
+  color: #081359;
+}
+
+@media only screen and (max-width: 768px) {
+  .uk-fintech-week.two-column-section:first-child .content-wrapper {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .uk-fintech-week.two-column-section .main-wrapper {
+    gap: 0px;
+    padding: 0px 20px;
+  }
+
+  .uk-fintech-week.two-column-section:first-child .content-wrapper {
+    padding-left: 0px;
+  }
+
+  .uk-fintech-week.two-column-section h2 {
+    color: #081359;
+    font-size: 39px;
+  }
+}
+
+/* uk-fintech-week-page hero banner two col section end*/
+
+/* ifgs2023 page */
+.ifgs2023 .two-column-section .content-wrapper {
+  margin-top: 32px;
+}
+
+/* ifgs2023 page end*/
+
+/* fintechforschool-twocol-section1 start */
+.fintechforschool-twocol-section.two-column-section .main-wrapper {
+  padding: 0;
+}
+
+.fintechforschool-twocol-section.two-column-section .main-wrapper .content-wrapper .paragraph {
+  font-size: 14px !important;
+  line-height: 23px;
+  color: #444444 !important;
+  padding: 23px 0;
+}
+
+.fintechforschool-twocol-section.two-column-section .vedio iframe {
+  height: 311px !important;
+  width: 562px !important;
+}
+
+@media only screen and (max-width: 822px) {
+  .fintechforschool-twocol-section.two-column-section .vedio iframe {
+    width: 100% !important;
+    height: 192px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fintechforschool-twocol-section.two-column-section {
+    padding: 0 15px;
+  }
+
+  .fintechforschool-twocol-section.two-column-section .main-wrapper .content-wrapper .paragraph {
+    padding-left: 11px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .fintechforschool-twocol-section.two-column-section .details {
+    background: #666666;
+    padding: 0 36px;
+  }
+
+  .fintechforschool-twocol-section.two-column-section {
+    padding: 0;
+  }
+
+  .fintechforschool-twocol-section.two-column-section .vedio {
+    margin-top: 10px;
+  }
+
+  .fintechforschool-twocol-section.two-column-section .main-wrapper .content-wrapper .paragraph {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .fintechforschool-twocol-section.two-column-section .vedio iframe {
+    width: 100% !important;
+    height: 169px !important;
+  }
+}
+
+/* fintechforschool-twocol-section2 start */
+
+/* .fintechforschool-twocol-section2.two-column-section {
+  padding-top: 100px;
+} */
+.fintechforschool-twocol-section2.two-column-section .main-wrapper {
+  padding-bottom: 0;
+}
+
+.fintechforschool-twocol-section2 .main-wrapper .content-wrapper .fintechschool-btn a {
+  color: #404040;
+  border: 2px solid black;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 11px !important;
+  padding: 12px 30px;
+  transition: all 0.15s ease-in-out;
+  line-height: 12px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+}
+
+.fintechforschool-twocol-section2 .main-wrapper .content-wrapper .fintechschool-btn a:hover {
+  background-color: #252525;
+  color: #fff;
+}
+
+.fintechforschool-twocol-section2.two-column-section .main-wrapper .content-wrapper .logo-images {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 990px) {
+  .two-column-section.fintechforschool-twocol-section2.fintechforschool-2 .image-wrapper .image-div span img {
+    width: 290px !important;
+    height: 290px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .two-column-section.fintechforschool-twocol-section2.fintechforschool-2 {
+    padding: 0 20px;
+  }
+
+  .two-column-section.fintechforschool-twocol-section2.fintechforschool-2 .image-wrapper .image-div span img {
+    width: 264px !important;
+    height: 264px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fintechforschool-twocol-section2.fintechforschool-2 .content-wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .fintechforschool-twocol-section2 .main-wrapper .content-wrapper .fintechschool-btn {
+    align-self: center;
+  }
+
+  .two-column-section.fintechforschool-twocol-section2.fintechforschool-2 .image-wrapper .image-div span img {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .fintechforschool-twocol-section2 .main-wrapper .content-wrapper .fintechschool-btn {
+    align-self: center;
+  }
+
+  .fintechforschool-twocol-section2.two-column-section {
+    padding-top: 0;
+  }
+
+  .fintechforschool-twocol-section2.two-column-section .details {
+    padding: 0 14px;
+  }
+
+  .two-column-section.fintechforschool-twocol-section2.fintechforschool-2 .image-wrapper .image-div span img {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+/*  */
+
+.fintechforschool-twocol-section2.fintechforschool-2 .content-wrapper {
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.fintechforschool-twocol-section2.fintechforschool-2 .main-wrapper .content-wrapper .fintechschool-btn a {
+  padding: 9px 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .fintechforschool-twocol-section2.fintechforschool-2 .content-wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .fintechforschool-twocol-section2 .main-wrapper .content-wrapper .fintechschool-btn a {
+    padding: 12px 24px;
+  }
+}
+
+/* fintechforschool-twocol-section3  start */
+.fintechforschool-twocol-section3.two-column-section .main-wrapper .content-wrapper .fintechschool-btn {
+  padding-bottom: 35px;
+}
+
+.fintechforschool-twocol-section3.two-column-section .main-wrapper .content-wrapper .fintechschool-btn a {
+  color: #404040;
+  border: 2px solid black;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 11px !important;
+  /* padding: 12px 35px; */
+  transition: all 0.15s ease-in-out;
+  line-height: 12px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+}
+
+.fintechforschool-twocol-section3.two-column-section .main-wrapper .content-wrapper .fintechschool-btn a:hover {
+  background-color: #252525;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .fintechforschool-twocol-section3.two-column-section {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fintechforschool-twocol-section3.two-column-section .main-wrapper {
+    padding: 20px;
+  }
+
+  .fintechforschool-twocol-section3.two-column-section .main-wrapper .content-wrapper .fintechschool-btn {
+    align-self: center;
+  }
+
+  .fintechforschool-twocol-4.two-column-section .content-wrapper h4 {
+    text-align: center;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .fintechforschool-twocol-section3.two-column-section .main-wrapper {
+    padding-bottom: 30px !important;
+  }
+
+  .fintechforschool-twocol-section3.two-column-section .main-wrapper {
+    padding: 0px;
+  }
+}
+
+/* fintechforschool-twocol-section3 end */
+/* fintechforschool-twocol-section3 start */
+@media screen and (max-width: 990px) {
+  .fintechforschool-twocol-section3.two-column-section.fintechforschool-twocol-4 .main-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+/* fintechforschool-twocol-section3 end */
+
+/* capital twoCol section start */
+.capital-twocol-section.two-column-section .main-wrapper .order-2 {
+  padding: 53px 0px;
+}
+
+.capital-twocol-section.two-column-section .main-wrapper .order-2 p {
+  padding-bottom: 47px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.capital-twocol-section .paragraph p {
+  font-family: "Open Sans", sans-serif !important;
+  color: #444444 !important;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+
+.capital-twocol-section.two-column-section .content-wrapper .title h2 {
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 42px;
+}
+
+/* capital twoCol section end */
+
+/* /ifgs2023/secureyourticket/ start */
+.secure-two-col-section.two-column-section .main-wrapper .content-wrapper {
+  padding: 50px 31px 0 0;
+}
+
+.secure-two-col-section.two-column-section .main-wrapper .content-wrapper .paragraph p {
+  line-height: 27px !important;
+}
+
+.secure-two-col-section.two-column-section .main-wrapper {
+  padding-bottom: 20px;
+}
+
+.secure-two-col-section.two-column-section .main-wrapper .content-wrapper .paragraph h1 {
+  font-size: 48px !important;
+  margin-bottom: 16px;
+  font-weight: 200 !important;
+  line-height: 62px !important;
+  font-family: NeoTechStd-Light, sans-serif !important;
+  color: #404040;
+  letter-spacing: -0.004em;
+}
+
+@media screen and (max-width: 1024px) {
+  .secure-two-col-section.two-column-section .main-wrapper {
+    padding-bottom: 1px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .secure-two-col-section.two-column-section {
+    padding: 0 20px;
+  }
+
+  /* .secure-two-col-section.two-column-section .main-wrapper .image-div {
+    margin-top: 29px;
+  } */
+  .secure-two-col-section.two-column-section .main-wrapper .content-wrapper {
+    padding: 50px 7px 0 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+
+  /* .secure-two-col-section.two-column-section .main-wrapper .image-div {
+    margin-top: 27px;
+  } */
+  .secure-two-col-section.two-column-section {
+    margin: 0px;
+  }
+
+  .secure-two-col-section.two-column-section .main-wrapper .image-div {
+    margin-top: 1px;
+  }
+
+  .secure-two-col-section.two-column-section .main-wrapper {
+    padding-bottom: 0;
+  }
+
+  .secure-two-col-section.two-column-section .main-wrapper .content-wrapper .paragraph h1 {
+    margin-bottom: 16px;
+  }
+
+  .secure-two-col-section.two-column-section .main-wrapper .content-wrapper {
+    padding: 0;
+  }
+
+  .secure-two-col-section.two-column-section .image-wrapper .image-div {
+    margin-bottom: 40px;
+  }
+}
+
+/* /ifgs2023/secureyourticket/ end */
+/* gettinghere page start */
+.getting-here-twocol-section.two-column-section .paragraph h1 {
+  line-height: 40px;
+  color: #404040;
+  font-size: 31px;
+  margin-bottom: 10px;
+}
+
+.getting-here-twocol-section.two-column-section .vedio iframe {
+  height: 450px !important;
+}
+
+.getting-here-twocol-section.two-column-section:nth-child(2) p {
+  line-height: 27px;
+  color: #444444;
+  font-family: "Poppins", sans-serif !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .getting-here-twocol-section.two-column-section .vedio iframe {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .getting-here-twocol-section.two-column-section .main-wrapper {
+    gap: 0;
+  }
+
+  .getting-here-twocol-section.two-column-section .vedio iframe {
+    width: 100% !important;
+    padding: 0px 29px;
+  }
+
+  .getting-here-twocol-section.two-column-section .main-wrapper .content-wrapper {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .getting-here-twocol-section.two-column-section .content-wrapper {
+    padding: 0px 33px;
+  }
+
+  .getting-here-twocol-section.two-column-section .image-wrapper {
+    padding: 0px 35px;
+  }
+
+  .getting-here-twocol-section.two-column-section .vedio iframe {
+    width: 100% !important;
+    padding: 0px;
+  }
+
+  .getting-here-twocol-section.two-column-section .paragraph h1 {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .getting-here-twocol-section.two-column-section .main-wrapper .content-wrapper {
+    padding-right: 33px;
+    margin-top: 39px;
+  }
+
+  .getting-here-twocol-section.two-column-section .paragraph h1 {
+    margin-top: 0px;
+  }
+
+  .two-column-section .main-wrapper {
+    padding-bottom: 65px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .getting-here-twocol-section.two-column-section .content-wrapper .logo-images {
+    padding-right: 25px;
+  }
+}
+
+/* gettinghere page end */
+/* /cmo-forum page start */
+.cmo-forum-twocol-section.two-column-section .main-wrapper {
+  padding-bottom: 0px;
+}
+
+.cmo-forum-twocol-section.two-column-section .main-wrapper .content-wrapper p {
+  text-align: center;
+  color: #4bbb87;
+  text-transform: uppercase;
+  line-height: 51px;
+  margin-bottom: 38px !important;
+}
+
+.cmo-forum-twocol-section.two-column-section .main-wrapper .content-wrapper ul li {
+  padding-bottom: 69px;
+}
+
+.cmo-forum-twocol-section.two-column-section .main-wrapper .image-wrapper {
+  border-right: 1px solid !important;
+}
+
+@media screen and (max-width: 767px) {
+  .cmo-forum-twocol-section.two-column-section .main-wrapper .image-wrapper {
+    border-right: 1px solid transparent !important;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .cmo-forum-twocol-section.two-column-section {
+    padding: 0 20px;
+  }
+
+  .cmo-forum-twocol-section.two-column-section .main-wrapper .content-wrapper ul li {
+    padding-bottom: 60px;
+  }
+}
+
+/* cmo-forum-twocol-section-2 start */
+.cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper ul li {
+  margin: 0 0 53px 38px;
+}
+
+.cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper ul li {
+  line-height: 1.66em !important;
+  font-size: 16px !important;
+}
+
+.cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper li:not(:last-child) {
+  list-style-type: square;
+  margin: 0 0px 70px 67px;
+}
+
+.cmo-forum-twocol-section-2.two-column-section .main-wrapper .image-wrapper {
+  border-right: 1px solid !important;
+}
+
+@media screen and (max-width: 767px) {
+  .cmo-forum-twocol-section-2.two-column-section .main-wrapper .image-wrapper {
+    border-right: 1px solid transparent !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cmo-forum-twocol-section-2.two-column-section .main-wrapper .image-wrapper {
+    height: 68%;
+  }
+
+  .cmo-forum-twocol-section-2.two-column-section .card {
+    padding: 30px 20px;
+  }
+
+  .cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper {
+    /* padding-top: 32px; */
+    padding-top: 0;
+  }
+
+  .cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper li:not(:last-child) {
+    margin: 19px 42px 70px 62px;
+  }
+
+  .cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper ul li {
+    margin: 0 45px 53px 27px;
+  }
+
+  .cmo-forum-twocol-section-2.two-column-section .card {
+    padding: 19px 9px 19px 30px;
+  }
+
+  .cmo-forum-twocol-section-2 .card .content-details {
+    padding-bottom: 61px !important;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper li:not(:last-child) {
+    margin: 0 33px 70px 101px;
+  }
+
+  .cmo-forum-twocol-section-2.two-column-section .main-wrapper .content-wrapper ul li {
+    margin: 0 29px 53px 70px;
+  }
+
+  .two-column-section.cmo-forum-twocol-section-2 .card .content-details:nth-child(3) {
+    padding-bottom: 5px !important;
+  }
+}
+
+/* cmo-forum-twocol-section-2 end */
+/* /cmo-forum page end */
+/*sustainability-twocol-section start*/
+/* spacing-twocol-section */
+@media screen and (max-width: 767px) {
+  .sustainability-twocol-section.spacing-twocol-section.two-column-section .main-wrapper {
+    padding-bottom: 40px;
+  }
+}
+
+/* spacing-twocol-section */
+.sustainability-twocol-section.two-column-section .content-wrapper {
+  width: 96% !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .sustainability-twocol-section.two-column-section iframe {
+    height: 214px !important;
+    width: 353px !important;
+  }
+
+  .sustainability-twocol-section.two-column-section .content-wrapper {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sustainability-twocol-section.two-column-section iframe {
+    height: 193px !important;
+    width: 335px !important;
+  }
+
+  .sustainability-twocol-section.two-column-section .content-wrapper {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sustainability-twocol-section.two-column-section .main-wrapper {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .sustainability-twocol-section.two-column-section iframe {
+    height: 230px !important;
+    width: 400px !important;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .sustainability-twocol-section.two-column-section iframe {
+    height: 203px !important;
+    width: 360px !important;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .sustainability-twocol-section.two-column-section iframe {
+    height: 217px !important;
+    width: 353px !important;
+    padding: 0px 4px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sustainability-twocol-section.two-column-section iframe {
+    height: 170px !important;
+    width: 297px !important;
+    padding: 0px 4px;
+  }
+}
+
+/*sustainability-twocol-section end*/
+/* /fintech-national-network-new/ page start */
+.fin-national-net-new-twocol.two-column-section .main-wrapper .image-wrapper {
+  text-align: left;
+  align-items: initial;
+}
+
+.fin-national-net-new-twocol.two-column-section .main-wrapper .description h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #404040;
+  margin-top: 29px;
+}
+
+.fin-national-net-new-twocol.two-column-section .main-wrapper .content-wrapper .title {
+  margin-bottom: 18px;
+}
+
+.fin-national-net-new-twocol.two-column-section .main-wrapper .content-wrapper .title p {
+  line-height: 51px !important;
+  color: #404040 !important;
+}
+
+.fin-national-net-new-twocol.two-column-section .main-wrapper .content-wrapper .paragraph {
+  margin-bottom: 20px !important;
+}
+
+.fin-national-net-new-twocol.two-column-section .main-wrapper .content-wrapper .paragraph p {
+  color: #444444 !important;
+  line-height: 27px !important;
+}
+
+@media screen and (max-width: 990px) {
+  .fin-national-net-new-twocol.two-column-section .main-wrapper .description h1 {
+    padding-right: 10px;
+  }
+
+  .fin-national-net-new-twocol.two-column-section .main-wrapper {
+    padding-bottom: 10px;
+  }
+
+  .fin-national-net-new-twocol.two-column-section .main-wrapper .description h1 {
+    padding-right: 0px;
+  }
+}
+
+/* /fintech-national-network-new/ page end */
+
+/* sustainability-twocol-section sustain-for-space start */
+@media screen and (max-width: 426px) {
+  .two-column-section.sustainability-twocol-section.sustain-for-space .main-wrapper {
+    padding-bottom: 52px;
+  }
+
+  .two-column-section.sustainability-twocol-section.sustain-for-space1 .main-wrapper {
+    padding-bottom: 40px;
+  }
+}
+
+/* sustainability-twocol-section sustain-for-space end */
+
+/*sustainability-twocol-section-2 start*/
+
+@media screen and (max-width: 768px) {
+  .sustainability-twocol-section-2.two-column-section .main-wrapper {
+    padding-bottom: 0px;
+  }
+}
+
+/*sustainability-twocol-section-2 end*/
+/*sustainability-twocol-section-3 start*/
+@media screen and (max-width: 767px) {
+
+  .sustainability-twocol-section-3.two-column-section h4,
+  .sustainability-twocol-section-3.two-column-section p {
+    padding: 0px 15px;
+  }
+}
+
+/*sustainability-twocol-section-3 end*/
+/*sustainability-twocol-section-4 start*/
+.sustainability-twocol-section-4.two-column-section .details {
+  padding: 0px 15px;
+}
+
+/*sustainability-twocol-section-4 end*/
+/*uk-fintech-week-twocol-2 start*/
+.uk-fintech-week-twocol-2.two-column-section .main-wrapper {
+  gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .uk-fintech-week-twocol-2.two-column-section .main-wrapper {
+    gap: 0px;
+  }
+
+  .uk-fintech-week-twocol-2.two-column-section .main-wrapper {
+    padding-bottom: 0;
+  }
+
+  .uk-fintech-week-twocol-2.two-column-section .content-wrapper {
+    margin-bottom: 94px;
+  }
+}
+
+/*uk-fintech-week-twocol-2 end*/
+/*fintechasaforceforgood-4 start*/
+.fintechasaforceforgood-4.fintechasaforceforgood.two-column-section {
+  background-color: #081359 !important;
+  padding: 45px 0;
+}
+
+.fintechasaforceforgood-4.two-column-section iframe {
+  /* width: 570px; */
+  width: 100%;
+  height: 321px;
+}
+
+.fintechasaforceforgood-4.two-column-section h2 {
+  /* padding-right: 10px; */
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.fintechasaforceforgood-4.two-column-section p {
+  color: #ffffff;
+}
+
+.fintechasaforceforgood-4.two-column-section h2 strong {
+  font-weight: 700;
+}
+
+.fintechasaforceforgood-4.two-column-section .main-wrapper {
+  gap: 37px;
+  padding-bottom: 0;
+}
+
+.fintechasaforceforgood-4.two-column-section .global-btn {
+  margin-top: 52px;
+  line-height: 12px !important;
+}
+
+.fintechasaforceforgood-4.two-column-section .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #3ae8bf !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .fintechasaforceforgood-4.two-column-section iframe {
+    /* width: 482px; */
+    width: 100%;
+    height: 271px;
+  }
+
+  .fintechasaforceforgood-4.two-column-section .main-wrapper {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fintechasaforceforgood-4.two-column-section iframe {
+    /* width: 354px; */
+    width: 100%;
+    height: 196px;
+    margin-top: 32px;
+  }
+
+  .fintechasaforceforgood-4.two-column-section .global-btn {
+    margin-top: 30px;
+  }
+
+  .fintechasaforceforgood-4.two-column-section .buttons div:nth-child(2) div .global-btn {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fintechasaforceforgood-4.two-column-section iframe {
+    padding: 0 15px;
+    height: 446px;
+  }
+
+  .fintechasaforceforgood-4.two-column-section h2 {
+    font-size: 39px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .fintechasaforceforgood-4.two-column-section iframe {
+    width: 100%;
+    height: 211px;
+    margin-top: 32px;
+  }
+
+  .fintechasaforceforgood-4.two-column-section .details {
+    padding: 0;
+  }
+
+  .fintechasaforceforgood.two-column-section {
+    padding: 0;
+  }
+
+  .fintechasaforceforgood-4.two-column-section .content-wrapper {
+    padding: 0px 15px;
+  }
+
+  .fintechasaforceforgood-4.two-column-section .buttons div:nth-child(2) div .global-btn {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .fintechasaforceforgood-4.two-column-section iframe {
+    /* width: 384px; */
+    width: 100%;
+    height: 207px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .fintechasaforceforgood-4.two-column-section .main-wrapper {
+    gap: 0px;
+  }
+
+  .fintechasaforceforgood-4.two-column-section iframe {
+    /* width: 345px; */
+    width: 100%;
+    height: 195px;
+  }
+}
+
+/*fintechasaforceforgood-4 end*/
+/*wireddifferentlyseries start*/
+.wireddifferentlyseries-two-col-sec.two-column-section .main-wrapper {
+  background-color: #060242;
+  color: #ffffff;
+  margin: 57px 32px 51px 32px;
+  border-radius: 10px;
+  padding: 0;
+  gap: 0;
+}
+
+.wireddifferentlyseries-two-col-sec.two-column-section h1 {
+  color: #fff;
+  font-weight: 300 !important;
+  font-size: 32px !important;
+  line-height: 48px !important;
+  margin: 94px 0px 125px 107px;
+}
+
+.wireddifferentlyseries-two-col-sec.two-column-section h1 span {
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  line-height: 72px !important;
+}
+
+.wireddifferentlyseries-two-col-sec.two-column-section .image-wrapper {
+  position: relative;
+  margin-right: 113px;
+}
+
+.wireddifferentlyseries-two-col-sec.two-column-section .image-div {
+  position: absolute;
+  top: 19px;
+  left: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wireddifferentlyseries-two-col-sec.two-column-section h1 {
+    margin: 19px 0px 125px 107px;
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .wireddifferentlyseries-two-col-sec.two-column-section h1 {
+    margin: 19px 0px 125px 107px;
+    font-size: 30px !important;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .main-wrapper {
+    margin: 57px 32px 396px 32px;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .image-wrapper {
+    position: relative;
+    margin-right: 113px;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .image-div {
+    position: absolute;
+    top: -116px;
+    left: 109px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wireddifferentlyseries-two-col-sec.two-column-section .main-wrapper {
+    margin: 57px 32px 52px 32px;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section h1 {
+    margin: 19px 0px 0px 107px;
+    font-size: 30px !important;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section {
+    padding-bottom: 70px;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .image-wrapper {
+    position: relative;
+    margin-right: 113px;
+    margin-left: 107px;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .main-wrapper {
+    height: 300px;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .image-div {
+    position: absolute;
+    top: -74px;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wireddifferentlyseries-two-col-sec.two-column-section h1 {
+    margin: 13px 20px 0px 30px;
+    font-size: 30px !important;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .image-wrapper {
+    position: relative;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .wireddifferentlyseries-two-col-sec.two-column-section .image-div {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+  }
+}
+
+/*wireddifferentlyseries end*/
+
+/* international-fintech-group-twocol start */
+.international-fintech-group-twocol.two-column-section .content-wrapper h3 {
+  margin-bottom: 26px;
+}
+
+.international-fintech-group-twocol.two-column-section ul li {
+  list-style-type: disc;
+  font-size: 15px;
+  line-height: 27.075px;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 1.8em;
+}
+
+/* international-fintech-group-twocol end */
+
+/* ifgs2024/sponsor page start  */
+.ifgs-sponsors-twocol.two-column-section {
+  margin: 0 20px;
+}
+
+.ifgs-sponsors-twocol.two-column-section .container {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 66px 0 40px;
+}
+
+.ifgs-sponsors-twocol.two-column-section .content-wrapper {
+  padding: 0 25px 0 36px;
+}
+
+.ifgs-sponsors-twocol.two-column-section .content-wrapper h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 55.5px;
+  margin-bottom: 21px;
+}
+
+.ifgs-sponsors-twocol.two-column-section .content-wrapper p {
+  color: #000;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+
+.ifgs-sponsors-twocol.two-column-section .arrow-button-section {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .ifgs-sponsors-twocol.two-column-section .vedio iframe {
+    height: 323px !important;
+    width: 96% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ifgs-sponsors-twocol.two-column-section .content-wrapper h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .content-wrapper p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .vedio iframe {
+    width: 100% !important;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .container {
+    background-color: none;
+    padding: 0;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section {
+    background-color: #f3f3f3 !important;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section {
+    padding: 56px 0 0px;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .content-wrapper {
+    padding: 0 36px 0 36px;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .main-wrapper {
+    padding-bottom: 36px;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .vedio {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .ifgs-sponsors-twocol.two-column-section .vedio iframe {
+    height: 340px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ifgs-sponsors-twocol.two-column-section .arrow-button-section .wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .arrow-button-section {
+    display: block;
+  }
+
+  .ifgs-sponsors-twocol.two-column-section .arrow-button-section .buttons {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ifgs-sponsors-twocol.two-column-section .arrow-button-section .buttons {
+    width: 42%;
+  }
+}
+
+/* ifgs-sponsors-twocol-2 start  */
+
+.ifgs-sponsors-twocol-2.ifgs-sponsors-twocol.two-column-section .arrow-button-section {
+  display: block;
+}
+
+.ifgs-sponsors-twocol-2.ifgs-sponsors-twocol.two-column-section .arrow-button-section .wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 767px) {
+  .ifgs-sponsors-twocol-2.ifgs-sponsors-twocol.two-column-section .image-wrapper {
+    order: 1;
+  }
+
+  .ifgs-sponsors-twocol-2.ifgs-sponsors-twocol.two-column-section .arrow-button-section .buttons {
+    width: 48%;
+  }
+
+  .ifgs-sponsors-twocol-2.ifgs-sponsors-twocol.two-column-section .content-wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .ifgs-sponsors-twocol-2.ifgs-sponsors-twocol.two-column-section {
+    padding: 0;
+  }
+
+}
+
+/* ifgs-sponsors-twocol-2 end  */
+/* ifgs2024/sponsor page end  */
+
+/* pitch-360-twocol  start  */
+
+.pitch-360-twocol.two-column-section .title-image {
+  margin-bottom: 25px;
+}
+
+.pitch-360-twocol.two-column-section .paragraph p img {
+  display: inline;
+}
+
+@media screen and (max-width: 426px) {
+  .pitch-360-twocol.two-column-section .main-wrapper {
+    padding-bottom: 38px;
+  }
+}
+
+/* pitch-360-twocol  end  */
+
+/* fffg page fffg-two-col style start  */
+
+.fffg-two-col.two-column-section .content-wrapper h2 {
+  margin-bottom: 24px;
+  font-size: 31px;
+  line-height: 40px;
+}
+
+.fffg-two-col.two-column-section .image-div .move-animation span img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 426px) {
+  .fffg-two-col.two-column-section .main-wrapper {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width:768px) {
+  .fffg-two-col.two-column-section .image-wrapper {
+    text-align: right;
+  }
+}
+
+/* fffg page fffg-two-col style end  */
+
+/* ethical-al-course-twocol start  */
+.ethical-al-course-twocol.two-column-section {
+  padding: 43px 0 28px;
+}
+
+.ethical-al-course-twocol.two-column-section .image-wrapper {
+  text-align: left;
+}
+
+.ethical-al-course-twocol.two-column-section .content-wrapper {
+  padding-top: 43px;
+}
+
+.ethical-al-course-twocol.two-column-section .content-wrapper p {
+  margin-bottom: 0px;
+}
+
+.ethical-al-course-twocol.two-column-section .image-wrapper h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.ethical-al-course-twocol.two-column-section .image-wrapper h3,
+.ethical-al-course-twocol.two-column-section .image-wrapper .description p,
+.ethical-al-course-twocol.two-column-section .content-wrapper .paragraph p,
+.ethical-al-course-twocol.two-column-section .content-wrapper ul li {
+  color: #ffffff;
+
+}
+
+@media (max-width:767px) {
+  .ethical-al-course-twocol.two-column-section .content-wrapper {
+    padding-top: 14px;
+  }
+}
+
+/* ethical-al-course-twocol end  */
+/* ethical-two-col-2 start  */
+.ethical-two-col-2.two-column-section .image-wrapper {
+  margin-top: 38px;
+
+}
+
+.ethical-two-col-2.two-column-section .image-wrapper .image-div img {
+
+  border-radius: 10px;
+}
+
+/* ethical-two-col-2 end */
+
+/* ukfintech-week-two-col start  */
+.ukfintech-week-two-col.two-column-section .title h1 {
+  color: #000;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+
+.ukfintech-week-two-col.two-column-section .title h2 {
+  font-weight: 600;
+  color: #1A1A1A;
+  font-size: 30px;
+  margin: 50px 0 40px;
+  line-height: 45px;
+
+}
+
+.ukfintech-week-two-col.two-column-section .content-wrapper a:hover {
+  color: #4bbb87;
+}
+
+.ukfintech-week-two-col.two-column-section .content-wrapper .paragraph p {
+  color: #000;
+}
+
+.ukfintech-week-two-col.two-column-section .image-wrapper .image-div span img {
+  border-radius: 10px;
+}
+
+@media (max-width:1024px) {
+  .ukfintech-week-two-col.two-column-section .title h2 {
+    margin: 30px 0 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .ukfintech-week-two-col.two-column-section .title h2 {
+    margin: 10px 0 21px;
+    font-size: 30px;
+  }
+
+  .ukfintech-week-two-col.two-column-section .title h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width:768px) {
+  .ukfintech-week-two-col.two-column-section .main-wrapper {
+    gap: 3.25rem;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+
+  #networking,
+  #ifgs,
+  #pitch360,
+  #ukfan {
+    scroll-margin-top: 140px;
+  }
+}
+
+/* ukfintech-week-two-col end */
+
+/* fffg-speakers-2024 start  */
+.fffg-speakers-2024.two-column-section .main-wrapper {
+  background-color: #E6E6DC;
+  border-radius: 40px;
+  padding: 40px 50px;
+}
+
+.fffg-speakers-2024.two-column-section .image-div {
+  text-align: right;
+}
+
+/* fffg-speakers-2024 end */
+
+/* pitch360-new-two-col start  */
+.pitch360-new-two-col.two-column-section h1 {
+  margin-top: 25px;
+}
+
+.pitch360-new-two-col.two-column-section h2 {
+  color: #002c15;
+}
+
+.pitch360-new-two-col.two-column-section h1,
+.pitch360-new-two-col.two-column-section h2 {
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+
+.pitch360-new-two-col.two-column-section .global-btn {
+  margin-top: 24px;
+}
+
+@media (min-width:768px) {
+
+  .pitch360-new-two-col.two-column-section h1,
+  .pitch360-new-two-col.two-column-section h2 {
+    font-size: 45px;
+    line-height: 55px;
+
+  }
+}
+
+/* pitch360-new-two-col end */
+
+/* pitch360-new-two-col-2 start  */
+@media (min-width:768px) and (max-width:1023px) {
+  .pitch360-new-two-col-2.two-column-section .vedio lottie-player {
+    width: 100% !important;
+  }
+
+}
+
+@media (min-width:768px) {
+  .pitch360-new-two-col-2.two-column-section .content-wrapper {
+    margin-top: 98px;
+  }
+}
+
+@media (max-width:767px) {
+  .pitch360-new-two-col-2.two-column-section .image-wrapper {
+    display: none;
+  }
+
+}
+
+/* pitch360-new-two-col-2 end */
+
+
+/* digital-pound-two-col start  */
+.digital-pound-two-col.two-column-section .title h1 {
+  color: #002c15;
+  font-weight: 500;
+  margin-bottom: 33px;
+}
+
+.digital-pound-two-col.two-column-section .content-wrapper p {
+  color: #000000;
+  padding-top: 10px;
+}
+
+@media (max-width:767px) {
+  .for-responsive-order-change.digital-pound-two-col.two-column-section .image-wrapper {
+    order: 1;
+  }
+
+  .digital-pound-two-col.two-column-section .global-btn {
+    width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .digital-pound-two-col.two-column-section .title h1 {
+    font-size: 43px;
+    line-height: 60px;
+  }
+}
+
+/* digital-pound-two-col end */
+
+/* regtech-uk-two-col-section start  */
+
+@media (min-width:768px) {
+  .regtech-uk-two-col-section.digital-pound-two-col.two-column-section .title h1 {
+    margin-top: 40px;
+  }
+}
+
+/* regtech-uk-two-col-section end */

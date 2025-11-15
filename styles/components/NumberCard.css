@@ -1,0 +1,115 @@
+.number-card {
+  padding: 10px 0 86px 0;
+}
+
+.number-card h4 {
+  font-size: 30px !important;
+  /* margin-bottom: 20px; */
+  font-weight: 700 !important;
+  line-height: 62px !important;
+  font-family: NeoTechStd-Light, sans-serif !important;
+  color: #404040;
+  font-style: normal;
+}
+
+.number-card .card-grid {
+  margin-top: 40px;
+}
+.number-card .linear-gradient {
+  width: 30%;
+  margin: 0 0 5px 0;
+}
+@media only screen and (max-width: 822px) {
+  .number-card .linear-gradient {
+    width: 45% !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .number-card .linear-gradient {
+    width: 60% !important;
+  }
+}
+
+/* .number-card-2 from about page start */
+.number-card-2 {
+  padding: 10px 0 60px 0;
+}
+/* .number-card-2 from about page end */
+
+/* /talent page start */
+.talent-numbers-section.number-card {
+  padding: 0;
+}
+
+.talent-numbers-section.number-card .title p {
+  text-align: center;
+  margin-bottom: 50px !important;
+  line-height: 51px;
+}
+
+.talent-numbers-section.number-card .sub-title p {
+  line-height: 51px;
+}
+
+.talent-numbers-section.number-card p {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .talent-numbers-section.number-card .card-content:nth-child(2) {
+    text-align: right;
+  }
+
+  .talent-numbers-section.number-card
+    .card-content:nth-child(2)
+    .linear-gradient {
+    width: 30% !important;
+    margin-left: 69% !important;
+  }
+  .talent-numbers-section.number-card .linear-gradient {
+    width: 30% !important;
+  }
+}
+@media screen and (max-width: 567px) {
+  .talent-numbers-section.number-card {
+    padding: 0 20px;
+  }
+  .talent-numbers-section.number-card
+    .card-content:nth-child(2)
+    .linear-gradient {
+    width: 30% !important;
+    margin-left: 331px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .talent-numbers-section.number-card
+    .card-content:nth-child(2)
+    .linear-gradient {
+    width: 30% !important;
+    margin-left: 247px !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  .talent-numbers-section.number-card
+    .card-content:nth-child(2)
+    .linear-gradient {
+    width: 30% !important;
+    margin-left: 221px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .talent-numbers-section.number-card
+    .card-content:nth-child(2)
+    .linear-gradient {
+    width: 30% !important;
+    margin-left: 172px !important;
+  }
+}
+
+/* talent page numbers section-2  start*/
+.talent-numbers-section.number-card.title-spacing .title p {
+  margin-bottom: 78px !important;
+}
+
+/* talent page numbers section-2  end*/
+/* /talent page end */

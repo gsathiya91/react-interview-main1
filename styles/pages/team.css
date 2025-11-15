@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px) {
+    .team-page-wrapper {
+        padding: 0 20px;
+    }
+}

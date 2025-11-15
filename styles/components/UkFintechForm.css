@@ -1,0 +1,305 @@
+.ukfintech-form h2 {
+  /* font-family: rift-soft,sans-serif; */
+  color: #081359;
+  font-size: 39px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ukfintech-form h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ukfintech-form h1 {
+  font-size: 48px !important;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 200 !important;
+  line-height: 62px !important;
+  font-family: NeoTechStd-Light, sans-serif !important;
+  color: #404040;
+  text-transform: capitalize;
+}
+
+.ukfintech-form.fintech-for-schools .wrapper {
+  width: 60%;
+}
+
+.ukfintech-form.fintech-national-form iframe {
+  background-color: #e8e8e8 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .ukfintech-form.fintech-for-schools .wrapper {
+    width: auto;
+  }
+}
+
+.ukfintech-form.fintech-national-form {
+  padding-bottom: 50px;
+}
+
+/* ukfintechweek page start*/
+@media screen and (min-width: 1281px) {
+  .ukfintech-form#getinvolved {
+    scroll-margin-top: 143px;
+  }
+}
+
+
+/*ukfintechweek page end*/
+
+/* contact-page start*/
+.ukfintech-form.contact-page h1 {
+  margin-bottom: 94px;
+}
+
+/* contact-page end*/
+
+/* membership-hubs-investor-form page start */
+.membership-hubs-investor-form.ukfintech-form .container {
+  padding: 0;
+}
+
+.membership-hubs-investor-form.ukfintech-form .wrapper p {
+  line-height: 51px !important;
+  color: #404040 !important;
+}
+
+@media only screen and (max-width: 786px) {
+  .membership-hubs-investor-form.ukfintech-form {
+    padding-bottom: 40px;
+  }
+}
+
+/* membership-hubs-investor-form page start */
+
+/*member-on-boarding page start  */
+.member-on-boarding.ukfintech-form h1 {
+  display: none;
+}
+
+/*member-on-boarding page end  */
+
+/* /international-programme/ page start */
+.international-programme-form-section.ukfintech-form#hubmembership {
+  scroll-margin-top: 150px;
+}
+
+.international-programme-form-section.ukfintech-form .wrapper h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.international-programme-form-section.ukfintech-form .wrapper p {
+  margin-bottom: 60px;
+}
+
+/* /international-programme/ page end */
+
+/* institutional-page  start*/
+.institutional-page.ukfintech-form .wrapper {
+  width: 70%;
+}
+
+.institutional-page.ukfintech-form p {
+  color: #404040 !important;
+  line-height: 51px !important;
+  margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .institutional-page.ukfintech-form .wrapper {
+    width: 100% !important;
+  }
+}
+
+/* institutional-page  end*/
+
+/*partner-form-section start*/
+.partner-form-section.ukfintech-form p {
+  margin-bottom: 18px;
+  line-height: 51px !important;
+  color: #404040 !important;
+}
+
+/*partner-form-section end*/
+/*powerlist2018-form-section start*/
+.powerlist2018-form-section.ukfintech-form h3 {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 767px) {
+  .powerlist2018-form-section.ukfintech-form h3 {
+    text-align: center;
+  }
+}
+
+/*powerlist2018-form-section end*/
+
+/* fintechnationalnetwork page start */
+.ukfintech-form.fintech-national-form .wrapper p {
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 51px !important;
+  color: #404040 !important;
+}
+
+/* fintechnationalnetwork page end */
+
+/* submit-page start*/
+.submit-page.ukfintech-form h1 {
+  display: none;
+}
+
+/* submit-page end  */
+
+/* policy page start */
+.policy-form.ukfintech-form .wrapper h3 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 426px) {
+  .policy-form.ukfintech-form {
+    padding: 0 15px;
+  }
+}
+
+/* policy page end */
+
+/* newsletter page start */
+.news-letter-form.ukfintech-form .wrapper {
+  width: 97%;
+}
+
+@media screen and (max-width: 767px) {
+  .news-letter-form.ukfintech-form .wrapper {
+    width: 100%;
+  }
+}
+
+/* newsletter page end */
+
+/* ifgs-sponsors-form start  */
+.ifgs-sponsors-form.ukfintech-form#enquire {
+  scroll-margin-top: 150px;
+}
+
+/* ifgs-sponsors-form end  */
+
+/* ifgs2024 page start  */
+.ifgs2024-form.ukfintech-form#findouthowtogetinvolved {
+  scroll-margin-top: 170px;
+}
+
+.ifgs2024-form.ukfintech-form h3 {
+  color: #000;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .ifgs2024-form.ukfintech-form h3 {
+    font-size: 32px;
+    line-height: 35px;
+    padding-right: 43px;
+  }
+
+  .ifgs2024-form.ukfintech-form#findouthowtogetinvolved {
+    scroll-margin-top: 10px;
+  }
+}
+
+/* ifgs2024 page end  */
+
+/* pitch360 page start  */
+
+.pitch-360-form.ukfintech-form .wrapper h1 {
+  font-weight: 700 !important;
+  font-family: Poppins, sans-serif !important;
+  margin-bottom: 39px;
+  text-align: left;
+}
+
+.pitch-360-form.ukfintech-form .wrapper p {
+  margin-bottom: 30px;
+  color: #3d4045 !important;
+}
+
+.pitch-360-form.ukfintech-form .wrapper h4 {
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.pitch-360-form.ukfintech-form .wrapper ul {
+  margin-bottom: 50px;
+}
+
+.pitch-360-form.ukfintech-form .wrapper ul li {
+  margin-left: 0;
+  color: #000;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+@media screen and (max-width: 767px) {
+  .pitch-360-form.ukfintech-form .wrapper h1 {
+    font-size: 30px !important;
+    line-height: 62px !important;
+    margin-bottom: 18px;
+  }
+
+  .pitch-360-form.ukfintech-form .wrapper p {
+    margin-bottom: 42px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .pitch-360-form.ukfintech-form#applytopitch {
+    scroll-margin-top: 170px;
+  }
+}
+
+/* pitch360 page end  */
+
+/* criteria-form start  */
+.criteria-form.ukfintech-form h3 {
+  text-align: left;
+}
+
+@media screen and (min-width: 1281px) {
+  .criteria-form.ukfintech-form#sponsorfintechpowerlist {
+    scroll-margin-top: 170px;
+  }
+}
+
+/* criteria-form end  */
+
+/* fffg-form start  */
+.fffg-form.ukfintech-form h3 {
+  text-align: left;
+}
+
+@media screen and (min-width: 1281px) {
+  .fffg-form.ukfintech-form#getinvolved {
+    scroll-margin-top: 170px;
+  }
+}
+
+/* fffg-form end  */
+
+/* ukfintechweek-form start  */
+.ukfintechweek-form.ukfintech-form h2 {
+  font-weight: 600;
+  color: #1A1A1A;
+  font-size: 30px;
+}
+
+/* ukfintechweek-form end */

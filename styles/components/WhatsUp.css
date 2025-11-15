@@ -1,0 +1,268 @@
+/* what section */
+/* slider */
+.whats-section .slick-slider.slick-initialized {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.whats-section .slick-slider .slick-list .slick-track {
+  display: flex;
+  gap: 50px;
+}
+
+.whats-section .slick-slider .slick-list {
+  overflow: hidden;
+}
+
+.whats-section .slick-dots {
+  display: flex;
+  margin: 30px auto 0 auto;
+  z-index: 1;
+}
+
+.whats-section .slick-dots li button span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: Alpha(Opacity=50);
+  opacity: 1;
+  border-radius: 20px;
+  background: #c3cbc8;
+}
+
+.whats-section .slick-dots .slick-active button span {
+  background-color: #869791 !important;
+}
+
+/* slider end*/
+
+.whats-section {
+  padding: 0 0 67px 0;
+  margin-top: -200px;
+  position: relative;
+  margin-bottom: -11px;
+}
+
+.whats-section::before {
+  content: "";
+  width: 100%;
+  /* height: 100%; */
+  height: 61%;
+  position: absolute;
+  top: 200px;
+  display: block;
+  background-color: #000068 !important;
+  /* z-index: -1; */
+}
+
+.whats-section h2.main-title {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  text-transform: capitalize !important;
+  color: #000000 !important;
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.whats-section h2.h1 {
+  color: #fff !important;
+  margin-top: 19px;
+  font-family: NeoTechStd-Light, sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.whats-section .card p {
+  /* margin-bottom: 44px; */
+  font-size: 16px !important;
+  line-height: 1.66rem !important;
+  color: #000000;
+}
+
+.whats-section .card h4 {
+  color: #fff;
+}
+
+.whats-section .card p img {
+  /* margin-bottom: 64px; */
+  margin-top: 58px;
+}
+
+.whats-section .card-3 p img {
+  margin-top: 33px;
+}
+
+.whats-section .card {
+  padding: 0px 35px 35px;
+  border-radius: 10px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  height: 341px;
+  border-radius: 10px !important;
+}
+
+.whats-section .card-3 {
+  padding: 22px 35px 35px 35px;
+}
+
+.whats-section .card .heading1 {
+  margin-bottom: 0;
+}
+
+.whats-section .main-wrapper {
+  padding: 0 38px;
+}
+
+.whats-section .global-btn {
+  float: right !important;
+  margin-top: 0;
+  margin: auto 17px 14px auto;
+}
+
+.whats-section .global-btn:hover {
+  background: #4bbb87 !important;
+}
+
+.whats-section .card-6 {
+  background-position: 50% 16% !important;
+}
+
+/* .whats-section .card-6 .global-btn {
+  margin: auto 17px 10px auto;
+} */
+
+@media only screen and (max-width: 1024px) {
+  .whats-section .main-wrapper {
+    padding: 0 60px;
+  }
+
+  .whats-section .card {
+    height: 366px;
+  }
+
+  .whats-section .card p img {
+    margin-bottom: 30px;
+    margin-top: 55px;
+  }
+
+  /* .whats-section .card-3 .global-btn {
+    margin: auto 17px 23px auto;
+  } */
+
+  .whats-section .card-6 .global-btn {
+    margin: auto 17px 0px auto;
+  }
+
+  .whats-section .card-3 .global-btn {
+    margin: auto 17px 0px auto;
+  }
+
+  .whats-section .card-3 {
+    padding: 10px 35px 35px 35px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .whats-section .card {
+    height: 351px;
+  }
+
+  /* .whats-section .card-3 {
+    width: 172px !important;
+  }
+  .whats-section .card-5 {
+    width: 229px !important;
+  }
+  .whats-section .card-6 {
+    width: 185px !important;
+  } */
+  .whats-section .card p img {
+    margin-top: 93px;
+  }
+
+  .whats-section .card-3 p img {
+    margin-top: 62px;
+  }
+
+  /* .whats-section .card-3 .global-btn {
+    margin: auto 17px 0px auto;
+  } */
+  .whats-section .card-3 .global-btn {
+    margin: auto 17px 31px auto;
+  }
+
+  .whats-section .main-wrapper {
+    padding: 0 42px;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  .whats-section .slick-slider .slick-list .slick-track {
+    gap: 30px;
+  }
+
+  .whats-section .main-wrapper {
+    padding: 0 20px;
+  }
+
+  .whats-section .card {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whats-section::before {
+    height: 65%;
+  }
+
+  .whats-section .card {
+    height: 324px;
+  }
+
+  .whats-section .card-3 .global-btn {
+    margin: auto 17px 0px auto;
+  }
+
+  .whats-section .card p img {
+    margin-top: 55px;
+  }
+
+  .whats-section .card-3 p img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .whats-section .global-btn {
+    float: inherit !important;
+    margin: auto 0 0 auto;
+  }
+
+  .whats-section .card {
+    height: 307px;
+  }
+
+  .whats-section .card-6 h1 {
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    padding: 0 2px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .whats-section .card {
+    text-align: center;
+  }
+
+  .whats-section .global-btn {
+    margin: auto auto 0 auto;
+  }
+}
+
+/* what end */

@@ -1,0 +1,225 @@
+.become-tab-section {
+  padding: 60px 0 57px 0;
+}
+
+.become-tab-section h2 {
+  margin-bottom: 98px;
+  line-height: 57px;
+}
+
+.become-tab-section .description {
+  margin-bottom: 30px;
+}
+
+.become-tab-section .content-tab {
+  display: none;
+}
+
+.become-tab-section .content-tab.active-content-tab {
+  display: block;
+  padding: 40px 70px 77px 70px;
+  /* padding: 25px 25px 30px; */
+}
+
+.become-tab-section ul {
+  margin: 0 10px 76px 10px;
+  /* margin: 0 20px 56px 20px; */
+}
+
+.become-tab-section ul li.tab {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  height: auto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  border-radius: 10px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.become-tab-section ul li.active-tab {
+  background-color: #4bbb87;
+  color: #fff !important;
+  cursor: default;
+}
+
+.become-tab-section ul li.tab:hover {
+  background-color: #4bbb87;
+  color: #fff !important;
+}
+
+.become-tab-section .content-tab {
+  background-color: #f3f2f2;
+  border: 1px solid #ebebeb;
+  padding: 40px 70px 77px 70px;
+}
+
+.become-tab-section h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: -0.004em;
+  margin-bottom: 40px;
+}
+
+.become-tab-section .become-tab-card {
+  padding: 20px 30px 40px 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  min-height: 705px;
+  /* min-height: 665px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.become-tab-section .become-tab-card ul {
+  margin: 0 20px 0px 20px;
+}
+
+.become-tab-section .become-tab-card .description {
+  font-weight: 500;
+}
+
+.become-tab-section .become-tab-card .description b {
+  font-weight: 700;
+}
+
+.become-tab-section .become-tab-card ul li {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #444444;
+}
+
+.become-tab-section .become-tab-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.004em;
+  color: #404040;
+  margin-bottom: 8px;
+}
+
+.become-tab-section .become-tab-card p {
+  margin-bottom: 20px;
+}
+
+.become-tab-section .global-btn {
+  margin-top: 45px;
+}
+
+.become-tab-section .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #66ffb8 !important;
+}
+
+.become-tab-section .tab-wrapper .content-tab:nth-child(1) .become-tab-card .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #4bbb87 !important;
+}
+
+.become-tab-section .content-tab .description,
+.become-tab-section .content-tab .become-tab-card-wrapper .become-tab-card .description {
+  margin-bottom: 20px !important;
+}
+
+.become-tab-section .content-tab .global-btn {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* @media only screen and (max-width: 1024px) {
+  .become-tab-section .content-tab {
+    padding: 20px !important;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  .become-tab-section {
+    padding: 60px 0 33px 0;
+  }
+
+  .become-tab-section ul {
+    margin: 0 0 76px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .become-tab-section {
+    padding: 60px 0 25px 0;
+  }
+
+  .become-tab-section h2 {
+    margin-bottom: 40px !important;
+  }
+
+  .become-tab-section h3 {
+    font-size: 20px !important;
+    line-height: 27px !important;
+    font-weight: 400 !important;
+  }
+
+  .become-tab-section select {
+    width: 100%;
+    background-color: #4bbb87 !important;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 35px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("https://ww2.innovatefinance.com/wp-content/uploads/2022/08/arrow-2.svg") 100% 50% no-repeat;
+    background-position-x: 93%;
+  }
+
+  .become-tab-section select option {
+    background-color: #fff;
+    color: #000000;
+  }
+
+  .become-tab-section .content-tab {
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .become-tab-section .description {
+    margin-bottom: 20px;
+  }
+
+  .become-tab-section ul {
+    margin-bottom: 0;
+  }
+
+  .become-tab-section .become-tab-card {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 60px;
+  }
+
+  .become-tab-section .become-tab-card .global-btn {
+    margin-top: 0px;
+  }
+
+  .become-tab-section .content-tab {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .become-tab-section .content-tab .description {
+    margin-bottom: 37px !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:1279px) {
+  .become-tab-section .desktop-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

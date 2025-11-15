@@ -1,0 +1,213 @@
+.tech-zero {
+  margin: 10px 0;
+}
+
+.tech-zero .tech-zero-wrapper {
+  background-color: #f3f3f3;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.tech-zero .tech-zero-wrapper .image-wrapper {
+  float: left;
+  line-height: 1;
+  /* Spacing */
+  margin: 0 1.5rem 0 0;
+  padding: 0 0.5rem;
+}
+
+.tech-zero .tech-zero-wrapper .image-wrapper img {
+  display: inline !important;
+  width: 270px !important;
+  height: 95px !important;
+}
+
+.tech-zero .tech-zero-wrapper .global-btn {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .tech-zero .tech-zero-wrapper .image-wrapper img {
+    width: 103px !important;
+  }
+  .tech-zero .tech-zero-wrapper .image-wrapper {
+    padding-left: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .tech-zero .tech-zero-wrapper {
+    padding: 30px 33px;
+  }
+}
+/* about page */
+.tech-zero.about-hover-button-Bgcolor .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #66ffb8 !important;
+}
+/* about page end*/
+
+/* finteh review mkpage section start */
+.fintech-review-tech-zero.tech-zero {
+  margin: 10px 0 20px 0;
+}
+.fintech-review-tech-zero .tech-zero-wrapper {
+  min-height: 0 !important;
+  background-color: #4bbb87;
+  width: 100%;
+  transition: background 0.2s ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 6px 12px rgb(0 0 0 / 20%);
+}
+.fintech-review-tech-zero .tech-zero-wrapper h2 {
+  margin-bottom: 15px;
+}
+
+.fintech-review-tech-zero iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.fintech-review-tech-zero .tech-zero-wrapper:hover {
+  transform: translate(0, -2px);
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%), 0 10px 20px rgb(0 0 0 / 20%);
+}
+
+.fintech-review-tech-zero .video-image-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* z-index: 0 !important; */
+}
+
+.fintech-review-tech-zero .icon-wrapper svg {
+  z-index: 99 !important;
+  fill: rgb(255, 255, 255);
+  height: 32px;
+  width: 25.1375px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+}
+
+.fintech-review-tech-zero .icon-wrapper:hover svg {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.fintech-review-tech-zero .description p {
+  width: 94%;
+}
+
+@media only screen and (max-width: 999px) {
+  .fintech-review-tech-zero .video-image-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .fintech-review-tech-zero .video-image-overlay {
+    top: 0;
+    height: 64%;
+    width: 88%;
+  }
+  .fintech-review-tech-zero .icon-wrapper svg {
+    top: 31%;
+  }
+  .fintech-review-tech-zero.tech-zero .wrapper {
+    min-height: 108px !important;
+    margin: 0 14px;
+  }
+  .fintech-review-tech-zero .icon-wrapper svg {
+    height: 21px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fintech-review-tech-zero.tech-zero .wrapper {
+    min-height: 352.125px !important;
+  }
+  .fintech-review-tech-zero .video-image-overlay {
+    height: 100%;
+    width: 95%;
+  }
+  .fintech-review-tech-zero .icon-wrapper svg {
+    top: 50%;
+    height: 32px;
+  }
+  .fintech-review-tech-zero .tech-zero-wrapper h2 {
+    font-size: 39px !important;
+  }
+  .fintech-review-tech-zero .description p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .fintech-review-tech-zero.tech-zero .wrapper {
+    min-height: 142px !important;
+    margin: 0 0px;
+  }
+  .fintech-review-tech-zero.tech-zero {
+    margin: 10px 20px 20px 20px;
+  }
+  .fintech-review-tech-zero .video-image-overlay {
+    height: 100%;
+    width: 100%;
+  }
+  .fintech-review-tech-zero .icon-wrapper svg {
+    top: 50%;
+  }
+}
+/* finteh review mkpage section end */
+
+/* events page start */
+.events-hero-banner.tech-zero {
+  border-radius: 7px;
+}
+.events-hero-banner.tech-zero .tech-zero-wrapper .title h2 {
+  font-size: 24px;
+  font-family: NeoTechStd-light, sans-serif !important;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #ffffff;
+}
+.events-hero-banner.tech-zero .tech-zero-wrapper .description p {
+  color: #ffffff;
+  font-size: 11px;
+}
+.events-hero-banner.tech-zero .wrapper {
+  /* width: 36%; */
+  text-align: left;
+  padding: 35px 30px 0;
+  display: initial !important;
+}
+
+.events-hero-banner.tech-zero .tech-zero-wrapper .global-btn {
+  font-size: 12px !important;
+  text-transform: initial;
+  margin: 20% 30px 0 0;
+  width: 50%;
+}
+@media screen and (max-width: 1024px) {
+  .events-hero-banner.tech-zero .tech-zero-wrapper .global-btn {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .events-hero-banner.tech-zero .tech-zero-wrapper .global-btn {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .events-hero-banner.tech-zero .tech-zero-wrapper .global-btn {
+    width: 80%;
+    margin: 0% 0px 0 0;
+  }
+  .events-hero-banner.tech-zero .wrapper {
+    padding: 35px 7px 0;
+  }
+}
+/* events page end */

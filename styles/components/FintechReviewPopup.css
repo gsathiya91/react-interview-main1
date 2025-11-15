@@ -1,0 +1,162 @@
+.fintech-review-popup-section .overlay {
+  background-color: #0e0e0eb0;
+  z-index: 99;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* cursor: pointer; */
+  /* background-color: rgba(99, 87, 87, 1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.fintech-review-popup-section .overlay .icon {
+  width: 70px;
+  position: absolute;
+  top: -1%;
+  right: -7%;
+  cursor: pointer;
+}
+
+.fintech-review-popup-section iframe {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.fintech-review-popup-section .content-wrapper {
+  height: 100%;
+}
+
+@media only screen and (max-width: 1025px) {
+  .fintech-review-popup-section .overlay .icon {
+    width: 30px;
+    top: -5%;
+    right: -1%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fintech-review-popup-section .overlay .icon {
+    top: -10%;
+  }
+
+  .fintech-review-popup-section iframe {
+    height: 375px;
+  }
+
+  .fintech-review-popup-section .content-wrapper {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fintech-review-popup-section iframe {
+    width: 100%;
+    height: 496px;
+  }
+
+  .fintech-review-popup-section .content-wrapper {
+    align-items: center;
+    display: flex !important;
+  }
+}
+
+/* /whatisfintech page start */
+
+
+.fintech-review-popup-section.what-is-fintech-card-popup .what-is-fintech-popup-content .iframe-data {
+  background: white;
+}
+
+@media screen and (min-width: 1280px) {
+  .fintech-review-popup-section.what-is-fintech-card-popup .what-is-fintech-popup-content .iframe-data {
+    background: white;
+    padding: 0 20px;
+  }
+
+  .fintech-review-popup-section.what-is-fintech-card-popup .overlay .icon {
+    top: -2%;
+    right: -5%;
+    width: 37px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fintech-review-popup-section.what-is-fintech-card-popup .what-is-fintech-popup-content {
+    height: 100% !important;
+  }
+
+  .fintech-review-popup-section.what-is-fintech-card-popup .what-is-fintech-popup-content .iframe-data iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .fintech-review-popup-section.what-is-fintech-card-popup .overlay .icon {
+    top: -6%;
+    right: -2%;
+    width: 30px;
+  }
+}
+
+/* /whatisfintech page end */
+
+
+/* /fintech-national-network-new/ page start */
+
+/* .fin-national-net-new-imagepopup.fintech-review-popup-section .overlay {
+  background-color: #5a5757;
+} */
+
+.fin-national-net-new-imagepopup.fintech-review-popup-section .what-is-fintech-popup-content {
+  width: auto !important;
+  opacity: 1;
+  overflow: visible;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.fin-national-net-new-imagepopup.fintech-review-popup-section .overlay .icon {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  width: 39px;
+  height: 42px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  text-align: center;
+  z-index: 1;
+  justify-items: center;
+  align-items: center;
+  display: inline-grid;
+  margin: 0 auto;
+}
+
+.fin-national-net-new-imagepopup.fintech-review-popup-section .content-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fin-national-net-new-imagepopup.fintech-review-popup-section .overlay .image-wrapper {
+  position: relative;
+}
+
+@media screen and (max-width: 567px) {
+  .fin-national-net-new-imagepopup.fintech-review-popup-section .overlay .icon {
+    width: 33px;
+    height: 19px;
+  }
+}
+
+/* /fintech-national-network-new/ page end */

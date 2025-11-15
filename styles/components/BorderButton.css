@@ -1,0 +1,46 @@
+.border-button {
+  padding: 9px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: color 0.1s ease-in-out, background 0.1s ease-in-out,
+    border 0.1s ease-in-out;
+  -webkit-transition: color 0.1s ease-in-out, background 0.1s ease-in-out,
+    border 0.1s ease-in-out;
+  font-size: 11px;
+  line-height: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  /* margin-top: 72px; */
+  background-color: transparent;
+  border-radius: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.border-button:hover {
+  background-color: #fff;
+  color: #252525;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  /* capital-and-investment-hero-banner-3 start */
+  .border-button-wrapper.capital-and-investment-hero-banner-3 {
+    text-align: left !important;
+    padding-bottom: 15px !important;
+  }
+
+  /* capital-and-investment-hero-banner-3 end */
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* capital-and-investment-hero-banner-3 and 2 start */
+  .border-button-wrapper.capital-and-investment-hero-banner-2,
+  .border-button-wrapper.capital-and-investment-hero-banner-3 {
+    text-align: center !important;
+  }
+
+  /* capital-and-investment-hero-banner-3 and 2 end */
+}

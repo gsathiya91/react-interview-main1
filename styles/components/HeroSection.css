@@ -1,0 +1,241 @@
+.hero-section {
+  padding: 84px 0 20px;
+  color: #000000 !important;
+  align-items: center;
+  background-color: rgba(0, 0, 50, 0.1);
+}
+
+.hero-section .title {
+  color: #404040;
+  width: 95%;
+}
+
+.hero-section p {
+  text-transform: capitalize !important;
+  color: #000000;
+  line-height: 24px;
+}
+
+.hero-section .input-form-wrapper {
+  margin-top: 70px;
+}
+
+.hero-section .input-form-wrapper input[type="text"] {
+  font-family: Poppins, sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 30px !important;
+  letter-spacing: -0.004em !important;
+  color: rgba(0, 0, 0, 0.44) !important;
+  padding: 15px 40px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  width: 100%;
+  background-color: #fff;
+  background-position: center !important;
+  position: relative;
+  outline: 0;
+}
+
+.hero-section .input-form-wrapper input[type="text"]::placeholder {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.hero-section .input-form-wrapper button {
+  margin-left: -31px;
+  fill: #abb8c3;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 22px;
+}
+.hero-section .input-form-wrapper button i svg {
+  fill: #abb8c3;
+}
+.hero-section .input-form-wrapper button i svg:hover {
+  fill: #000 !important;
+}
+
+.input-form-wrapper {
+  padding-bottom: 35px;
+  width: 100%;
+}
+.hero-section p {
+  margin-top: 5px;
+}
+@media only screen and (max-width: 822px) {
+  .hero-section .title {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    padding: 84px 20px 20px;
+  }
+  .hero-section p {
+    margin-top: 20px;
+  }
+  .hero-section .title {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-section {
+    padding: 84px 0 20px;
+  }
+  .hero-section h1 {
+    font-size: 25px !important;
+    line-height: 38px !important;
+  }
+  .hero-section p {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .hero-section {
+    padding: 84px 20px 20px 20px;
+  }
+
+  .hero-section .content-wrapper {
+    display: block;
+  }
+
+  .hero-section .title {
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .hero-section p {
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+
+  .hero-section .input-form-wrapper {
+    margin-top: 90px;
+  }
+}
+
+/*custom404-Hero-section start*/
+.custom404-Hero-section.hero-section {
+  background-color: transparent;
+  padding: 80px 0 20px;
+}
+
+.custom404-Hero-section.hero-section .input-form-wrapper input[type="text"] {
+  font-family: Poppins, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  letter-spacing: -0.004em !important;
+  color: #252525 !important;
+  border: 2px solid rgba(0, 0, 0, 0.12) !important;
+  border-radius: 0px !important;
+  text-align: left !important;
+  width: 100%;
+  padding: 12px 28px 12px 15px !important;
+  background-color: #fff;
+  background-position: center !important;
+  /* position: relative; */
+  outline: 0;
+}
+
+.custom404-Hero-section.hero-section
+  .input-form-wrapper
+  input[type="text"]::placeholder {
+  color: #252525 !important;
+  /* font-size: 13px !important; */
+  /* font-weight: lighter; */
+  text-align: left;
+  line-height: normal !important;
+  cursor: default !important;
+  opacity: 0.7;
+}
+.custom404-Hero-section.hero-section
+  .input-form-wrapper
+  input[type="text"]:focus {
+  border-color: rgba(0, 0, 0, 0.25) !important;
+}
+input[type="text"] .custom404-Hero-section.hero-section .title {
+  display: none;
+}
+
+.custom404-Hero-section.hero-section .main-title span {
+  font-size: 220px !important;
+  line-height: 100%;
+  display: block;
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #4bbb87;
+}
+
+.custom404-Hero-section.hero-section .content-wrapper {
+  text-align: center;
+}
+
+.custom404-Hero-section.hero-section .main-title h1 {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #444444;
+  line-height: 28px;
+}
+
+.custom404-Hero-section.hero-section .input-form-wrapper button {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -31px;
+  color: #abb8c3;
+  cursor: pointer;
+}
+
+.custom404-Hero-section.hero-section .input-form-wrapper {
+  margin-top: 20px;
+}
+
+.custom404-Hero-section.hero-section p {
+  line-height: 27px;
+  margin-bottom: 20px;
+  color: #444444;
+  font-size: 16px !important;
+  text-transform: inherit !important;
+}
+
+.custom404-Hero-section.hero-section .input-form-wrapper {
+  padding-bottom: 168px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .custom404-Hero-section.hero-section {
+    background-color: transparent;
+    padding: 72px 0 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .custom404-Hero-section.hero-section .main-title h1 {
+    font-size: 28px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .custom404-Hero-section.hero-section {
+    background-color: transparent;
+    padding: 52px 0 0px;
+    overflow: hidden;
+  }
+
+  .custom404-Hero-section.hero-section .input-form-wrapper {
+    padding-bottom: 165px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .custom404-Hero-section.hero-section .main-title span {
+    font-size: 201px !important;
+  }
+}
+/*custom404-Hero-section end*/
+.home-hero-section.hero-section p {
+  text-transform: unset !important;
+}

@@ -1,0 +1,127 @@
+.sponsor-section .content {
+  background: linear-gradient(to bottom right, #3c7eb0 0%, #10b7d9 100%);
+  min-height: 100px;
+  padding: 30px 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.sponsor-section .content .h1,
+.sponsor-section .content h2 {
+  font-size: 48px !important;
+  margin-bottom: 16px;
+  font-weight: 200 !important;
+  line-height: 62px !important;
+  font-family: NeoTechStd-Light, sans-serif !important;
+  color: #fff;
+}
+
+.sponsor-section .description {
+  color: #fff;
+}
+
+.sponsor-section .global-btn {
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 15px;
+  margin-top: 23px;
+}
+
+/* about start */
+.sponsor-section.about-page-sponsor .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #66ffb8 !important;
+}
+@media only screen and (max-width: 568px) {
+  .sponsor-section.about-page-sponsor .button-wrapper {
+    text-align: center;
+  }
+}
+
+/* about end */
+
+/* womeninfintech start */
+.sponsor-section.womeninfintech-hover-button-Bgcolor .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #000 !important;
+}
+
+.sponsor-section.womeninfintech-hover-button-Bgcolor .content {
+  background-image: url("https://ww2.innovatefinance.com/wp-content/uploads/2022/10/wif22-background-03.webp");
+  background-position: center center;
+  background-size: cover;
+}
+
+.sponsor-section.womeninfintech-hover-button-Bgcolor p {
+  margin-bottom: 43px;
+}
+
+@media only screen and (max-width: 767px) {
+  .sponsor-section.womeninfintech-hover-button-Bgcolor .content {
+    padding-bottom: 62px !important;
+  }
+}
+
+/* womeninfintech end */
+
+/* /secure-member-section start */
+.secure-member-section.sponsor-section .content {
+  margin-bottom: 32px;
+  padding: 20px !important;
+}
+
+.sponsor-section.secure-member-section#memberticket {
+  scroll-margin-top: 143px;
+}
+
+.secure-member-section.sponsor-section .content .description p {
+  width: 82%;
+}
+
+.secure-member-section.sponsor-section .content .global-btn:hover {
+  color: #ffffff !important;
+  background-color: #00c8c8 !important;
+}
+
+.secure-member-section.sponsor-section .content .global-btn {
+  line-height: 12px !important;
+  margin-top: 28px !important;
+}
+
+.secure-member-section.sponsor-section p {
+  line-height: 27px !important;
+}
+@media screen and (max-width: 1024px) {
+  .secure-member-section.sponsor-section .main {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .secure-member-section.sponsor-section .content .description p {
+    width: 80%;
+  }
+  .secure-member-section.sponsor-section .content {
+    padding: 20px 30px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .secure-member-section.sponsor-section .content .description p {
+    width: 100%;
+  }
+
+  .secure-member-section.sponsor-section .content .button-wrapper {
+    text-align: center !important;
+  }
+
+  .sponsor-section.secure-member-section#memberticket {
+    scroll-margin-top: 41px;
+  }
+
+  .secure-member-section.sponsor-section .content {
+    padding: 30px 35px !important;
+  }
+}
+
+/* /secure-member-section end */
