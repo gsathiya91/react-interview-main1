@@ -25,31 +25,11 @@ export default function ProductsPage() {
     }
   };
   const handleDeleteClick = (id) => {
-    setDeleteId(id); // open confirmation modal
+    setDeleteId(id); 
   };
-  // const handleDelete = async (id) => {
-  //   const userConfirmed = window.confirm(
-  //     "Do you really want to delete this product?"
-  //   );
-  //   if (!userConfirmed) return;
-
-  //   try {
-  //     const res = await fetch(`/api/products/${id}`, { method: "DELETE" });
-  //     if (!res.ok) {
-  //       const error = await res.json();
-  //       alert(error.message || "Failed to delete product");
-  //       return;
-  //     }
-  //     fetchProducts();
-  //     alert("Product deleted successfully!");
-  //   } catch (err) {
-  //     console.error(err);
-  //     alert("Something went wrong while deleting");
-  //   }
-  // };
-
+  
   const handleCancel = () => {
-    setDeleteId(null); // close modal
+    setDeleteId(null); 
   };
 
   const handleConfirmDelete = async () => {
