@@ -6,19 +6,6 @@
   margin-bottom: 1rem;
 }
 
-.create-product-form {
-  margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 400px;
-}
-
-.create-product-form button {
-  padding: 8px;
-  cursor: pointer;
-}
-
 .products-list {
   display: flex;
   flex-wrap: wrap;
@@ -58,16 +45,6 @@
   border: none;
 }
 
-/* Center the card in the viewport */
-.centered-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* full viewport height */
-  background-color: #f0f2f5;
-}
-
-/* Card container */
 .card {
   background-color: #fff;
   padding: 2rem;
@@ -80,19 +57,6 @@
   gap: 1.5rem;
 }
 
-/* Form inside card */
-.create-product-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.create-product-form h2 {
-  text-align: center;
-  color: #333;
-}
-
-/* Input groups */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -118,23 +82,239 @@
 .form-group textarea:focus {
   border-color: #007bff;
 }
-/* 
-button {
-  padding: 0.7rem;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-button:hover {
-  background-color: #0056b3;
-} */
 
 .error {
   color: red;
   font-size: 0.85rem;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(241, 228, 228, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto;
+  border: 1px solid rgb(45, 47, 45);
+  padding: 36px;
+  border-radius: 50px;
+}
+
+.create-product-form h1{
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  /* margin-top: 30px; */
+}
+
+.create-product-form input,
+.create-product-form textarea {
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-product-form input[type="file"] {
+  padding: 0.5rem 0;
+}
+
+.create-product-form button {
+  padding: 0.8rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create-product-form button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.productsPage {
+  padding: 2rem;
+}
+
+.productsPage h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.productsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.productCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  min-height: 350px;
+  position: relative;
+}
+
+.productCard img {
+  width: 100%;
+  height:200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.productCard h3 {
+  margin: 0.5rem 0;
+}
+
+.productCard p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cardDescription{
+  margin-bottom: 6px;
+}
+.actionButtons {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 16px;
+}
+
+.actionButtons button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 0.85rem;
+  transition: background 0.2s ease;
+}
+
+.actionButtons button:hover {
+  background-color: #0056b3;
+}
+
+.deleteBtn {
+  background-color: #e74c3c;
+}
+
+.deleteBtn:hover {
+  background-color: #c0392b;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.modalCard h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.modalCard p {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.modalActions button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cancelBtn {
+  background-color: #ccc;
+  color: #333;
+}
+
+.cancelBtn:hover {
+  background-color: #b3b3b3;
+}
+
+.confirmBtn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.confirmBtn:hover {
+  background-color: #c0392b;
+}
+.successMessage {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #4caf50;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 1001;
+  font-weight: 600;
 }

@@ -6,8 +6,8 @@ import FileInput from "../components/form/FileInput";
 import styles from "../styles/pages/products.module.css";
 import { useRouter } from "next/router";
 
-export default function AddProductForm({ product}) {
-  console.log({product})
+export default function AddProductForm({ product }) {
+  console.log({ product })
   const [formData, setFormData] = useState({ name: "", price: "", description: "", image: null });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
@@ -28,14 +28,23 @@ export default function AddProductForm({ product}) {
     setErrors({});
 
     const newErrors = {};
-    if (!formData.name.trim()) newErrors.name = "Product name is required";
+    if (!(formData.name + "").trim()) {
+      newErrors.name = "Product name is required";
+    }
+
     if (!formData.price) {
       newErrors.price = "Price is required";
     } else if (isNaN(formData.price) || Number(formData.price) <= 0) {
       newErrors.price = "Price must be a positive number";
     }
-    if (!formData.description.trim()) newErrors.description = "Description is required";
-    if (!formData.image) newErrors.image = "Product image is required";
+
+    if (!formData.description || !(formData.description + "").trim()) {
+      newErrors.description = "Description is required";
+    }
+
+    if (!product && !formData.image) {
+      newErrors.image = "Product image is required";
+    }
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -84,49 +93,58 @@ export default function AddProductForm({ product}) {
 
   return (
     <>
-      <div className="card">
-        <form onSubmit={handleSubmit} className={styles["create-product-form"]}>
-            <h2>{product ? "Edit Product" : "Add New Product"}</h2>
+      <div className={styles["page-container"]}>
+        <div>
+          <form onSubmit={handleSubmit} className={styles["create-product-form"]}>
+            <h1>{product ? "Edit Product" : "Add New Product"}</h1>
 
-          <TextInput
-            label="Product Name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            placeholder="Enter product name"
-            error={errors.name}
-          />
+            <TextInput
+              label="Product Name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Enter product name"
+              error={errors.name}
+            />
 
-          <NumberInput
-            label="Price"
-            name="price"
-            value={formData.price}
-            onChange={handleChange}
-            placeholder="Enter price"
-            error={errors.price}
-          />
+            <NumberInput
+              label="Price"
+              name="price"
+              value={formData.price}
+              onChange={handleChange}
+              placeholder="Enter price"
+              error={errors.price}
+            />
 
-          <Textarea
-            label="Description"
-            name="description"
-            value={formData.description}
-            onChange={handleChange}
-            placeholder="Enter description"
-            error={errors.description}
-          />
+            <Textarea
+              label="Description"
+              name="description"
+              value={formData.description}
+              onChange={handleChange}
+              placeholder="Enter description"
+              error={errors.description}
+            />
 
-          <FileInput
-            label="Product Image"
-            name="image"
-            type="file"
-            onChange={handleFileChange}
-            error={errors.image}
-          />
+            <FileInput
+              label="Product Image"
+              name="image"
+              type="file"
+              onChange={handleFileChange}
+              error={errors.image}
+            />
 
-          <button type="submit" disabled={submitting}>
-            {submitting ? "Adding..." : "Add Product"}
-          </button>
-        </form>
+            <button type="submit" disabled={submitting}>
+              {submitting
+                ? product
+                  ? "Updating..."
+                  : "Adding..."
+                : product
+                  ? "Update Product"
+                  : "Add Product"}
+            </button>
+
+          </form>
+        </div>
       </div>
     </>
   );

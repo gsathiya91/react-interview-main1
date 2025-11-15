@@ -1,15 +1,17 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import styles from "../styles/pages/products.module.css";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
- const router = useRouter();
+  const router = useRouter();
+  const [deleteId, setDeleteId] = useState(null);
+  const [successMsg, setSuccessMsg] = useState("");
 
   useEffect(() => {
     fetchProducts();
   }, []);
-  console.log("PRODUCTS:", products);
 
   const fetchProducts = async () => {
     try {
@@ -22,84 +24,107 @@ export default function ProductsPage() {
       setLoading(false);
     }
   };
+  const handleDeleteClick = (id) => {
+    setDeleteId(id); // open confirmation modal
+  };
+  // const handleDelete = async (id) => {
+  //   const userConfirmed = window.confirm(
+  //     "Do you really want to delete this product?"
+  //   );
+  //   if (!userConfirmed) return;
 
-  const handleDelete = async (id) => {
-    console.log("Deleting ID:", id);
-    const userConfirmed = await new Promise((resolve) => {
-      const confirmBox = window.confirm("Do you really want to delete this product?");
-      resolve(confirmBox);
-    });
+  //   try {
+  //     const res = await fetch(`/api/products/${id}`, { method: "DELETE" });
+  //     if (!res.ok) {
+  //       const error = await res.json();
+  //       alert(error.message || "Failed to delete product");
+  //       return;
+  //     }
+  //     fetchProducts();
+  //     alert("Product deleted successfully!");
+  //   } catch (err) {
+  //     console.error(err);
+  //     alert("Something went wrong while deleting");
+  //   }
+  // };
 
-    if (!userConfirmed) return;
+  const handleCancel = () => {
+    setDeleteId(null); // close modal
+  };
 
+  const handleConfirmDelete = async () => {
     try {
-      const res = await fetch(`/api/products/${id}`, {
-        method: "DELETE",
-      });
-
+      const res = await fetch(`/api/products/${deleteId}`, { method: "DELETE" });
       if (!res.ok) {
         const error = await res.json();
-        console.error("Delete failed:", error);
         alert(error.message || "Failed to delete product");
+        setDeleteId(null);
         return;
       }
-
-      fetchProducts(); 
-      alert("Product deleted successfully!");
+      fetchProducts();
+      setDeleteId(null);
+      router.push(`/products`);
+      setSuccessMsg("Product deleted successfully!");
+      setTimeout(() => setSuccessMsg(""), 3000);
     } catch (err) {
-      console.error("Error deleting product:", err);
+      console.error(err);
       alert("Something went wrong while deleting");
+      setDeleteId(null);
     }
   };
 
-const handleEdit = (product) => {
-  router.push(`/products/edit/${product._id}`);
-};
+  const handleEdit = (product) => {
+    router.push(`/products/edit/${product._id}`);
+  };
 
   if (loading) return <p>Loading products...</p>;
 
   return (
-    <div style={{ padding: "2rem" }}>
+    <div className={styles.productsPage}>
       <h1>Products List</h1>
       {products.length === 0 && <p>No products found.</p>}
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem" }}>
+      <div className={styles.productsList}>
+        {successMsg && (
+          <div className={styles.successMessage}>
+            {successMsg}
+          </div>
+        )}
+
         {products.map((product) => (
-          <div
-            key={product._id}
-            style={{
-              border: "1px solid #ccc",
-              borderRadius: "8px",
-              padding: "1rem",
-              width: "250px",
-              position: "relative", 
-            }}
-          >
-            <div style={{ position: "absolute", top: "8px", right: "8px", display: "flex", gap: "4px" }}>
+          <div key={product._id} className={styles.productCard}>
+            <img src={product.image} alt={product.name} />
+            <h3>{product.name}</h3>
+            <p>Price: ${product.price}</p>
+            <p className="cardDescription">{product.description}</p>
+            <div className={styles.actionButtons}>
+              <button onClick={() => handleEdit(product)}>Edit</button>
               <button
-                onClick={() => handleEdit(product)}
-                style={{ padding: "4px 8px", cursor: "pointer" }}
-              >
-                Edit
-              </button>
-              <button
-                onClick={() => handleDelete(product._id)}
-                style={{ padding: "4px 8px", cursor: "pointer", background: "red", color: "white", border: "none" }}
+                className={styles.deleteBtn}
+                onClick={() => handleDeleteClick(product._id)}
               >
                 Delete
               </button>
             </div>
-
-            <img
-              src={product.image}
-              alt={product.name}
-              style={{ width: "100%", height: "150px", objectFit: "cover" }}
-            />
-            <h3>{product.name}</h3>
-            <p>Price: ${product.price}</p>
-            <p>{product.description}</p>
           </div>
         ))}
       </div>
+      {deleteId && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modalCard}>
+            <h2>Confirm Delete</h2>
+            <p>Are you sure you want to delete this product?</p>
+            <div className={styles.modalActions}>
+              <button className={styles.cancelBtn} onClick={handleCancel}>
+                Cancel
+              </button>
+              <button className={styles.confirmBtn} onClick={handleConfirmDelete}>
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
+
   );
 }

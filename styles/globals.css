@@ -82,7 +82,11 @@ body {
 body {
   background-color: #fff !important;
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 a {
   color: inherit;
   text-decoration: none;
