@@ -1,0 +1,78 @@
+.wrapper {
+    margin: auto 80px;
+    width: auto;
+    border-radius: 40px;
+}
+
+.greenCard {
+    background: #193E2D;
+    border-radius: 32px;
+    padding: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    width: 55%;
+}
+
+.item {
+    color: white;
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+.icon {
+    width: 68.35px;
+    height: 68.35px;
+    position: relative;
+    background-image:
+        url("/eventimages/large.png"),
+        url("/eventimages/medium.png"),
+        url("/eventimages/small.png"),
+        url("/eventimages/xsmall.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:
+        60px 60px,
+        45px 45px,
+        30px 30px,
+        18px 18px;
+}
+
+.videoBox {
+    position: absolute;
+    left: 1099px;
+    width: 571.87px;
+    height: 321.68px;
+    background: #dcdcdc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.videoBox iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.whatToExpectContent{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
