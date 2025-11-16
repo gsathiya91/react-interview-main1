@@ -1,0 +1,41 @@
+.wrapper {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto 80px;
+  gap: 60px;
+  width: 65%;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #0a0a0a;
+}
+
+.right {
+  width: 100%;
+}
+.description {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 160%;
+  color: #555;
+}
+
+
+@media (min-width:769px) and (max-width: 992px) {
+  .title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #0a0a0a;
+  }
+
+}

@@ -192,7 +192,7 @@ p {
   font-family: Poppins, sans-serif;
   letter-spacing: 1px;
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   /* float: right; */
   margin: auto;
   background-color: #4bbb87;
